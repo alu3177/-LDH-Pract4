@@ -1,0 +1,5252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="dlls">
+        <df name="acledit">
+          <in>main.c</in>
+        </df>
+        <df name="aclui">
+          <in>aclui_main.c</in>
+        </df>
+        <df name="activeds">
+          <in>activeds_main.c</in>
+        </df>
+        <df name="actxprxy">
+          <in>usrmarshal.c</in>
+        </df>
+        <df name="adsiid">
+          <in>adsiid.c</in>
+        </df>
+        <df name="advapi32">
+          <df name="tests">
+            <in>cred.c</in>
+            <in>crypt.c</in>
+            <in>crypt_lmhash.c</in>
+            <in>crypt_md4.c</in>
+            <in>crypt_md5.c</in>
+            <in>crypt_sha.c</in>
+            <in>eventlog.c</in>
+            <in>lsa.c</in>
+            <in>registry.c</in>
+            <in>security.c</in>
+            <in>service.c</in>
+          </df>
+          <in>advapi.c</in>
+          <in>advapi32_misc.h</in>
+          <in>cred.c</in>
+          <in>crypt.c</in>
+          <in>crypt.h</in>
+          <in>crypt_arc4.c</in>
+          <in>crypt_des.c</in>
+          <in>crypt_lmhash.c</in>
+          <in>crypt_md4.c</in>
+          <in>crypt_md5.c</in>
+          <in>crypt_sha.c</in>
+          <in>eventlog.c</in>
+          <in>lsa.c</in>
+          <in>registry.c</in>
+          <in>security.c</in>
+          <in>service.c</in>
+        </df>
+        <df name="advpack">
+          <df name="tests">
+            <in>advpack.c</in>
+            <in>files.c</in>
+            <in>install.c</in>
+          </df>
+          <in>advpack.c</in>
+          <in>advpack_private.h</in>
+          <in>files.c</in>
+          <in>install.c</in>
+          <in>reg.c</in>
+        </df>
+        <df name="amstream">
+          <df name="tests">
+            <in>amstream.c</in>
+          </df>
+          <in>amstream.c</in>
+          <in>amstream_private.h</in>
+          <in>audiodata.c</in>
+          <in>main.c</in>
+          <in>mediastream.c</in>
+          <in>mediastreamfilter.c</in>
+        </df>
+        <df name="api-ms-win-core-localregistry-l1-1-0">
+        </df>
+        <df name="api-ms-win-core-processthreads-l1-1-0">
+        </df>
+        <df name="api-ms-win-core-winrt-error-l1-1-0">
+        </df>
+        <df name="api-ms-win-core-winrt-string-l1-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-advapi32-l1-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-advapi32-l2-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-normaliz-l1-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-ole32-l1-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-shell32-l1-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-shlwapi-l1-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-shlwapi-l2-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-user32-l1-1-0">
+        </df>
+        <df name="api-ms-win-downlevel-version-l1-1-0">
+        </df>
+        <df name="api-ms-win-security-base-l1-1-0">
+        </df>
+        <df name="apphelp">
+          <df name="tests">
+            <in>apphelp.c</in>
+          </df>
+          <in>apphelp.c</in>
+        </df>
+        <df name="appwiz.cpl">
+          <in>addons.c</in>
+          <in>appwiz.c</in>
+          <in>appwiz.h</in>
+          <in>res.h</in>
+        </df>
+        <df name="atl">
+          <df name="tests">
+            <in>atl_ax.c</in>
+            <in>module.c</in>
+            <in>registrar.c</in>
+          </df>
+          <in>atl_main.c</in>
+        </df>
+        <df name="atl100">
+          <df name="tests">
+            <in>atl.c</in>
+          </df>
+          <in>atl.c</in>
+          <in>atl_ax.c</in>
+          <in>registrar.c</in>
+        </df>
+        <df name="atl110">
+          <in>atl110.c</in>
+        </df>
+        <df name="atl80">
+          <df name="tests">
+            <in>atl.c</in>
+          </df>
+          <in>atl80.c</in>
+        </df>
+        <df name="atl90">
+          <in>atl90.c</in>
+        </df>
+        <df name="authz">
+          <in>authz.c</in>
+        </df>
+        <df name="avicap32">
+          <in>avicap32_main.c</in>
+        </df>
+        <df name="avifil32">
+          <df name="tests">
+            <in>api.c</in>
+          </df>
+          <in>acmstream.c</in>
+          <in>api.c</in>
+          <in>avifile.c</in>
+          <in>avifile_private.h</in>
+          <in>editstream.c</in>
+          <in>extrachunk.c</in>
+          <in>extrachunk.h</in>
+          <in>factory.c</in>
+          <in>getframe.c</in>
+          <in>icmstream.c</in>
+          <in>tmpfile.c</in>
+          <in>wavfile.c</in>
+        </df>
+        <df name="avifile.dll16">
+        </df>
+        <df name="avrt">
+          <in>main.c</in>
+        </df>
+        <df name="bcrypt">
+          <in>bcrypt_main.c</in>
+        </df>
+        <df name="browseui">
+          <df name="tests">
+            <in>autocomplete.c</in>
+            <in>progressdlg.c</in>
+          </df>
+          <in>aclmulti.c</in>
+          <in>aclsource.c</in>
+          <in>browseui.h</in>
+          <in>browseui_main.c</in>
+          <in>compcatcachedaemon.c</in>
+          <in>progressdlg.c</in>
+          <in>resids.h</in>
+        </df>
+        <df name="cabinet">
+          <df name="tests">
+            <in>extract.c</in>
+            <in>fdi.c</in>
+          </df>
+          <in>cabinet.h</in>
+          <in>cabinet_main.c</in>
+          <in>fci.c</in>
+          <in>fdi.c</in>
+        </df>
+        <df name="capi2032">
+          <in>cap20wxx.c</in>
+          <in>cap20wxx.h</in>
+        </df>
+        <df name="cards">
+          <in>cards.c</in>
+          <in>cards.h</in>
+        </df>
+        <df name="cfgmgr32">
+        </df>
+        <df name="clusapi">
+          <in>clusapi.c</in>
+        </df>
+        <df name="comcat">
+          <df name="tests">
+            <in>comcat.c</in>
+          </df>
+          <in>comcat_main.c</in>
+        </df>
+        <df name="comctl32">
+          <df name="tests">
+            <in>comboex.c</in>
+            <in>datetime.c</in>
+            <in>dpa.c</in>
+            <in>header.c</in>
+            <in>imagelist.c</in>
+            <in>ipaddress.c</in>
+            <in>listview.c</in>
+            <in>misc.c</in>
+            <in>monthcal.c</in>
+            <in>mru.c</in>
+            <in>msg.h</in>
+            <in>pager.c</in>
+            <in>progress.c</in>
+            <in>propsheet.c</in>
+            <in>rebar.c</in>
+            <in>resources.h</in>
+            <in>status.c</in>
+            <in>subclass.c</in>
+            <in>syslink.c</in>
+            <in>tab.c</in>
+            <in>toolbar.c</in>
+            <in>tooltips.c</in>
+            <in>trackbar.c</in>
+            <in>treeview.c</in>
+            <in>updown.c</in>
+            <in>v6util.h</in>
+          </df>
+          <in>animate.c</in>
+          <in>comboex.c</in>
+          <in>comctl32.h</in>
+          <in>comctl32undoc.c</in>
+          <in>commctrl.c</in>
+          <in>datetime.c</in>
+          <in>dpa.c</in>
+          <in>draglist.c</in>
+          <in>dsa.c</in>
+          <in>flatsb.c</in>
+          <in>header.c</in>
+          <in>hotkey.c</in>
+          <in>imagelist.c</in>
+          <in>ipaddress.c</in>
+          <in>listview.c</in>
+          <in>monthcal.c</in>
+          <in>nativefont.c</in>
+          <in>pager.c</in>
+          <in>progress.c</in>
+          <in>propsheet.c</in>
+          <in>rebar.c</in>
+          <in>smoothscroll.c</in>
+          <in>status.c</in>
+          <in>string.c</in>
+          <in>syslink.c</in>
+          <in>tab.c</in>
+          <in>theme_button.c</in>
+          <in>theme_combo.c</in>
+          <in>theme_dialog.c</in>
+          <in>theme_edit.c</in>
+          <in>theme_listbox.c</in>
+          <in>theming.c</in>
+          <in>toolbar.c</in>
+          <in>tooltips.c</in>
+          <in>trackbar.c</in>
+          <in>treeview.c</in>
+          <in>updown.c</in>
+        </df>
+        <df name="comdlg32">
+          <df name="tests">
+            <in>filedlg.c</in>
+            <in>finddlg.c</in>
+            <in>fontdlg.c</in>
+            <in>itemdlg.c</in>
+            <in>printdlg.c</in>
+          </df>
+          <in>cdlg.h</in>
+          <in>cdlg32.c</in>
+          <in>colordlg.c</in>
+          <in>filedlg.c</in>
+          <in>filedlg31.c</in>
+          <in>filedlgbrowser.c</in>
+          <in>filedlgbrowser.h</in>
+          <in>finddlg.c</in>
+          <in>fontdlg.c</in>
+          <in>itemdlg.c</in>
+          <in>printdlg.c</in>
+        </df>
+        <df name="comm.drv16">
+        </df>
+        <df name="commdlg.dll16">
+          <in>cdlg16.h</in>
+          <in>colordlg.c</in>
+          <in>filedlg.c</in>
+          <in>finddlg.c</in>
+          <in>fontdlg.c</in>
+          <in>printdlg.c</in>
+        </df>
+        <df name="compobj.dll16">
+          <in>compobj.c</in>
+        </df>
+        <df name="compstui">
+          <in>compstui_main.c</in>
+        </df>
+        <df name="comsvcs">
+          <in>main.c</in>
+        </df>
+        <df name="credui">
+          <df name="tests">
+            <in>credui.c</in>
+          </df>
+          <in>credui_main.c</in>
+          <in>credui_resources.h</in>
+        </df>
+        <df name="crtdll">
+          <in>crtdll_main.c</in>
+        </df>
+        <df name="crypt32">
+          <df name="tests">
+            <in>base64.c</in>
+            <in>cert.c</in>
+            <in>chain.c</in>
+            <in>crl.c</in>
+            <in>ctl.c</in>
+            <in>encode.c</in>
+            <in>main.c</in>
+            <in>message.c</in>
+            <in>msg.c</in>
+            <in>object.c</in>
+            <in>oid.c</in>
+            <in>protectdata.c</in>
+            <in>sip.c</in>
+            <in>store.c</in>
+            <in>str.c</in>
+          </df>
+          <in>base64.c</in>
+          <in>cert.c</in>
+          <in>chain.c</in>
+          <in>collectionstore.c</in>
+          <in>context.c</in>
+          <in>crl.c</in>
+          <in>crypt32_private.h</in>
+          <in>cryptres.h</in>
+          <in>ctl.c</in>
+          <in>decode.c</in>
+          <in>encode.c</in>
+          <in>filestore.c</in>
+          <in>main.c</in>
+          <in>message.c</in>
+          <in>msg.c</in>
+          <in>object.c</in>
+          <in>oid.c</in>
+          <in>proplist.c</in>
+          <in>protectdata.c</in>
+          <in>provstore.c</in>
+          <in>regstore.c</in>
+          <in>rootstore.c</in>
+          <in>serialize.c</in>
+          <in>sip.c</in>
+          <in>store.c</in>
+          <in>str.c</in>
+        </df>
+        <df name="cryptdlg">
+          <in>cryptres.h</in>
+          <in>main.c</in>
+        </df>
+        <df name="cryptdll">
+          <in>cryptdll.c</in>
+        </df>
+        <df name="cryptnet">
+          <df name="tests">
+            <in>cryptnet.c</in>
+          </df>
+          <in>cryptnet_main.c</in>
+        </df>
+        <df name="cryptui">
+          <df name="tests">
+            <in>cryptui.c</in>
+          </df>
+          <in>cryptuires.h</in>
+          <in>main.c</in>
+        </df>
+        <df name="ctapi32">
+          <in>ctapi.h</in>
+          <in>ctapi32.c</in>
+        </df>
+        <df name="ctl3d.dll16">
+          <in>ctl3d.c</in>
+        </df>
+        <df name="ctl3d32">
+          <in>ctl3d32.c</in>
+        </df>
+        <df name="ctl3dv2.dll16">
+          <in>ctl3d.c</in>
+        </df>
+        <df name="d3d10">
+          <df name="tests">
+            <in>device.c</in>
+            <in>effect.c</in>
+          </df>
+          <in>d3d10_main.c</in>
+          <in>d3d10_private.h</in>
+          <in>effect.c</in>
+          <in>shader.c</in>
+          <in>stateblock.c</in>
+          <in>utils.c</in>
+        </df>
+        <df name="d3d10core">
+          <df name="tests">
+            <in>device.c</in>
+          </df>
+          <in>async.c</in>
+          <in>buffer.c</in>
+          <in>d3d10core_main.c</in>
+          <in>d3d10core_private.h</in>
+          <in>device.c</in>
+          <in>inputlayout.c</in>
+          <in>shader.c</in>
+          <in>state.c</in>
+          <in>texture.c</in>
+          <in>utils.c</in>
+          <in>view.c</in>
+        </df>
+        <df name="d3d11">
+          <in>d3d11_main.c</in>
+        </df>
+        <df name="d3d8">
+          <df name="tests">
+            <in>device.c</in>
+            <in>stateblock.c</in>
+            <in>visual.c</in>
+          </df>
+          <in>buffer.c</in>
+          <in>d3d8_main.c</in>
+          <in>d3d8_private.h</in>
+          <in>device.c</in>
+          <in>directx.c</in>
+          <in>shader.c</in>
+          <in>surface.c</in>
+          <in>swapchain.c</in>
+          <in>texture.c</in>
+          <in>vertexdeclaration.c</in>
+          <in>volume.c</in>
+        </df>
+        <df name="d3d9">
+          <df name="tests">
+            <in>d3d9ex.c</in>
+            <in>device.c</in>
+            <in>stateblock.c</in>
+            <in>vertexdeclaration.c</in>
+            <in>visual.c</in>
+          </df>
+          <in>buffer.c</in>
+          <in>d3d9_main.c</in>
+          <in>d3d9_private.h</in>
+          <in>device.c</in>
+          <in>directx.c</in>
+          <in>query.c</in>
+          <in>shader.c</in>
+          <in>stateblock.c</in>
+          <in>surface.c</in>
+          <in>swapchain.c</in>
+          <in>texture.c</in>
+          <in>vertexdeclaration.c</in>
+          <in>volume.c</in>
+        </df>
+        <df name="d3dcompiler_33">
+          <in>d3dcompiler_33_main.c</in>
+        </df>
+        <df name="d3dcompiler_34">
+          <in>d3dcompiler_34_main.c</in>
+        </df>
+        <df name="d3dcompiler_35">
+          <in>d3dcompiler_35_main.c</in>
+        </df>
+        <df name="d3dcompiler_36">
+          <in>d3dcompiler_36_main.c</in>
+        </df>
+        <df name="d3dcompiler_37">
+          <in>d3dcompiler_37_main.c</in>
+        </df>
+        <df name="d3dcompiler_38">
+          <in>d3dcompiler_38_main.c</in>
+        </df>
+        <df name="d3dcompiler_39">
+          <in>d3dcompiler_39_main.c</in>
+        </df>
+        <df name="d3dcompiler_40">
+          <in>d3dcompiler_40_main.c</in>
+        </df>
+        <df name="d3dcompiler_41">
+          <in>d3dcompiler_41_main.c</in>
+        </df>
+        <df name="d3dcompiler_42">
+          <in>d3dcompiler_42_main.c</in>
+        </df>
+        <df name="d3dcompiler_43">
+          <df name="tests">
+            <in>asm.c</in>
+            <in>blob.c</in>
+            <in>hlsl.c</in>
+            <in>reflection.c</in>
+          </df>
+          <in>asmparser.c</in>
+          <in>blob.c</in>
+          <in>bytecodewriter.c</in>
+          <in>compiler.c</in>
+          <in>d3dcompiler_43_main.c</in>
+          <in>d3dcompiler_private.h</in>
+          <in>reflection.c</in>
+          <in>utils.c</in>
+        </df>
+        <df name="d3dim">
+          <in>d3dim_main.c</in>
+        </df>
+        <df name="d3drm">
+          <df name="tests">
+            <in>d3drm.c</in>
+            <in>vector.c</in>
+          </df>
+          <in>d3drm.c</in>
+          <in>d3drm_main.c</in>
+          <in>d3drm_private.h</in>
+          <in>device.c</in>
+          <in>face.c</in>
+          <in>frame.c</in>
+          <in>light.c</in>
+          <in>material.c</in>
+          <in>math.c</in>
+          <in>meshbuilder.c</in>
+          <in>texture.c</in>
+          <in>viewport.c</in>
+        </df>
+        <df name="d3dx10_33">
+          <in>d3dx10_33_main.c</in>
+        </df>
+        <df name="d3dx10_34">
+          <in>d3dx10_34_main.c</in>
+        </df>
+        <df name="d3dx10_35">
+          <in>d3dx10_35_main.c</in>
+        </df>
+        <df name="d3dx10_36">
+          <in>d3dx10_36_main.c</in>
+        </df>
+        <df name="d3dx10_37">
+          <in>d3dx10_37_main.c</in>
+        </df>
+        <df name="d3dx10_38">
+          <in>d3dx10_38_main.c</in>
+        </df>
+        <df name="d3dx10_39">
+          <in>d3dx10_39_main.c</in>
+        </df>
+        <df name="d3dx10_40">
+          <in>d3dx10_40_main.c</in>
+        </df>
+        <df name="d3dx10_41">
+          <in>d3dx10_41_main.c</in>
+        </df>
+        <df name="d3dx10_42">
+          <in>d3dx10_42_main.c</in>
+        </df>
+        <df name="d3dx10_43">
+          <in>d3dx10_43_main.c</in>
+        </df>
+        <df name="d3dx11_42">
+          <in>d3dx11_42.c</in>
+        </df>
+        <df name="d3dx11_43">
+          <in>d3dx11_43.c</in>
+        </df>
+        <df name="d3dx9_24">
+          <in>d3dx9_24_main.c</in>
+        </df>
+        <df name="d3dx9_25">
+          <in>d3dx9_25_main.c</in>
+        </df>
+        <df name="d3dx9_26">
+          <in>d3dx9_26_main.c</in>
+        </df>
+        <df name="d3dx9_27">
+          <in>d3dx9_27_main.c</in>
+        </df>
+        <df name="d3dx9_28">
+          <in>d3dx9_28_main.c</in>
+        </df>
+        <df name="d3dx9_29">
+          <in>d3dx9_29_main.c</in>
+        </df>
+        <df name="d3dx9_30">
+          <in>d3dx9_30_main.c</in>
+        </df>
+        <df name="d3dx9_31">
+          <in>d3dx9_31_main.c</in>
+        </df>
+        <df name="d3dx9_32">
+          <in>d3dx9_32_main.c</in>
+        </df>
+        <df name="d3dx9_33">
+          <in>d3dx9_33_main.c</in>
+        </df>
+        <df name="d3dx9_34">
+          <in>d3dx9_34_main.c</in>
+        </df>
+        <df name="d3dx9_35">
+          <in>d3dx9_35_main.c</in>
+        </df>
+        <df name="d3dx9_36">
+          <df name="tests">
+            <in>asm.c</in>
+            <in>core.c</in>
+            <in>effect.c</in>
+            <in>line.c</in>
+            <in>math.c</in>
+            <in>mesh.c</in>
+            <in>resources.h</in>
+            <in>shader.c</in>
+            <in>surface.c</in>
+            <in>texture.c</in>
+            <in>volume.c</in>
+            <in>xfile.c</in>
+          </df>
+          <in>core.c</in>
+          <in>d3dx9_36_main.c</in>
+          <in>d3dx9_36_private.h</in>
+          <in>effect.c</in>
+          <in>font.c</in>
+          <in>line.c</in>
+          <in>math.c</in>
+          <in>mesh.c</in>
+          <in>render.c</in>
+          <in>shader.c</in>
+          <in>skin.c</in>
+          <in>sprite.c</in>
+          <in>surface.c</in>
+          <in>texture.c</in>
+          <in>util.c</in>
+          <in>volume.c</in>
+          <in>xfile.c</in>
+        </df>
+        <df name="d3dx9_37">
+          <in>d3dx9_37_main.c</in>
+        </df>
+        <df name="d3dx9_38">
+          <in>d3dx9_38_main.c</in>
+        </df>
+        <df name="d3dx9_39">
+          <in>d3dx9_39_main.c</in>
+        </df>
+        <df name="d3dx9_40">
+          <in>d3dx9_40_main.c</in>
+        </df>
+        <df name="d3dx9_41">
+          <in>d3dx9_41_main.c</in>
+        </df>
+        <df name="d3dx9_42">
+          <in>d3dx9_42_main.c</in>
+        </df>
+        <df name="d3dx9_43">
+          <in>d3dx9_43_main.c</in>
+        </df>
+        <df name="d3dxof">
+          <df name="tests">
+            <in>d3dxof.c</in>
+          </df>
+          <in>d3dxof.c</in>
+          <in>d3dxof_private.h</in>
+          <in>main.c</in>
+          <in>mszip.c</in>
+          <in>mszip.h</in>
+          <in>parsing.c</in>
+        </df>
+        <df name="dbgeng">
+          <in>dbgeng.c</in>
+        </df>
+        <df name="dbghelp">
+          <in>coff.c</in>
+          <in>cpu_arm.c</in>
+          <in>cpu_arm64.c</in>
+          <in>cpu_i386.c</in>
+          <in>cpu_ppc.c</in>
+          <in>cpu_x86_64.c</in>
+          <in>crc32.c</in>
+          <in>dbghelp.c</in>
+          <in>dbghelp_private.h</in>
+          <in>dwarf.c</in>
+          <in>dwarf.h</in>
+          <in>elf_module.c</in>
+          <in>image.c</in>
+          <in>image_private.h</in>
+          <in>macho_module.c</in>
+          <in>minidump.c</in>
+          <in>module.c</in>
+          <in>msc.c</in>
+          <in>path.c</in>
+          <in>pe_module.c</in>
+          <in>source.c</in>
+          <in>stabs.c</in>
+          <in>stack.c</in>
+          <in>storage.c</in>
+          <in>symbol.c</in>
+          <in>type.c</in>
+          <in>wdbgexts.h</in>
+        </df>
+        <df name="dciman32">
+          <in>dciman_main.c</in>
+        </df>
+        <df name="ddeml.dll16">
+          <in>ddeml.c</in>
+        </df>
+        <df name="ddraw">
+          <df name="tests">
+            <in>d3d.c</in>
+            <in>ddraw1.c</in>
+            <in>ddraw2.c</in>
+            <in>ddraw4.c</in>
+            <in>ddraw7.c</in>
+            <in>ddrawmodes.c</in>
+            <in>dsurface.c</in>
+            <in>overlay.c</in>
+            <in>refcount.c</in>
+            <in>visual.c</in>
+          </df>
+          <in>clipper.c</in>
+          <in>ddraw.c</in>
+          <in>ddraw_private.h</in>
+          <in>device.c</in>
+          <in>executebuffer.c</in>
+          <in>light.c</in>
+          <in>main.c</in>
+          <in>material.c</in>
+          <in>palette.c</in>
+          <in>surface.c</in>
+          <in>utils.c</in>
+          <in>vertexbuffer.c</in>
+          <in>viewport.c</in>
+        </df>
+        <df name="ddrawex">
+          <df name="tests">
+            <in>ddrawex.c</in>
+            <in>ddrawex.h</in>
+            <in>surface.c</in>
+          </df>
+          <in>ddraw.c</in>
+          <in>ddrawex_private.h</in>
+          <in>main.c</in>
+          <in>surface.c</in>
+        </df>
+        <df name="devenum">
+          <df name="tests">
+            <in>devenum.c</in>
+          </df>
+          <in>createdevenum.c</in>
+          <in>devenum_main.c</in>
+          <in>devenum_private.h</in>
+          <in>factory.c</in>
+          <in>mediacatenum.c</in>
+          <in>parsedisplayname.c</in>
+        </df>
+        <df name="dhcpcsvc">
+          <in>dhcpcsvc.c</in>
+        </df>
+        <df name="difxapi">
+          <in>main.c</in>
+        </df>
+        <df name="dinput">
+          <df name="tests">
+            <in>device.c</in>
+            <in>dinput.c</in>
+            <in>joystick.c</in>
+            <in>keyboard.c</in>
+            <in>mouse.c</in>
+          </df>
+          <in>config.c</in>
+          <in>data_formats.c</in>
+          <in>device.c</in>
+          <in>device_private.h</in>
+          <in>dinput_main.c</in>
+          <in>dinput_private.h</in>
+          <in>effect_linuxinput.c</in>
+          <in>joystick.c</in>
+          <in>joystick_linux.c</in>
+          <in>joystick_linuxinput.c</in>
+          <in>joystick_osx.c</in>
+          <in>joystick_private.h</in>
+          <in>keyboard.c</in>
+          <in>mouse.c</in>
+          <in>resource.h</in>
+        </df>
+        <df name="dinput8">
+          <df name="tests">
+            <in>device.c</in>
+            <in>dinput.c</in>
+          </df>
+          <in>dinput8_main.c</in>
+        </df>
+        <df name="dispdib.dll16">
+          <in>dispdib.c</in>
+        </df>
+        <df name="dispex">
+          <df name="tests">
+            <in>marshal.c</in>
+          </df>
+          <in>usrmarshal.c</in>
+        </df>
+        <df name="display.drv16">
+          <in>display.c</in>
+        </df>
+        <df name="dmband">
+          <df name="tests">
+            <in>dmband.c</in>
+          </df>
+          <in>band.c</in>
+          <in>bandtrack.c</in>
+          <in>dmband_main.c</in>
+          <in>dmband_private.h</in>
+          <in>dmutils.c</in>
+          <in>dmutils.h</in>
+        </df>
+        <df name="dmcompos">
+          <in>chordmap.c</in>
+          <in>chordmaptrack.c</in>
+          <in>composer.c</in>
+          <in>dmcompos_main.c</in>
+          <in>dmcompos_private.h</in>
+          <in>signposttrack.c</in>
+        </df>
+        <df name="dmime">
+          <df name="tests">
+            <in>performance.c</in>
+          </df>
+          <in>audiopath.c</in>
+          <in>dmime_main.c</in>
+          <in>dmime_private.h</in>
+          <in>dmutils.c</in>
+          <in>dmutils.h</in>
+          <in>graph.c</in>
+          <in>lyricstrack.c</in>
+          <in>markertrack.c</in>
+          <in>paramcontroltrack.c</in>
+          <in>performance.c</in>
+          <in>segment.c</in>
+          <in>segmentstate.c</in>
+          <in>segtriggertrack.c</in>
+          <in>seqtrack.c</in>
+          <in>sysextrack.c</in>
+          <in>tempotrack.c</in>
+          <in>timesigtrack.c</in>
+          <in>wavetrack.c</in>
+        </df>
+        <df name="dmloader">
+          <df name="tests">
+            <in>loader.c</in>
+          </df>
+          <in>container.c</in>
+          <in>debug.c</in>
+          <in>debug.h</in>
+          <in>dmloader_main.c</in>
+          <in>dmloader_private.h</in>
+          <in>loader.c</in>
+          <in>loaderstream.c</in>
+        </df>
+        <df name="dmscript">
+          <in>dmscript_main.c</in>
+          <in>dmscript_private.h</in>
+          <in>script.c</in>
+          <in>scripttrack.c</in>
+        </df>
+        <df name="dmstyle">
+          <in>auditiontrack.c</in>
+          <in>chordtrack.c</in>
+          <in>commandtrack.c</in>
+          <in>dmstyle_main.c</in>
+          <in>dmstyle_private.h</in>
+          <in>dmutils.c</in>
+          <in>dmutils.h</in>
+          <in>motiftrack.c</in>
+          <in>mutetrack.c</in>
+          <in>style.c</in>
+          <in>styletrack.c</in>
+        </df>
+        <df name="dmsynth">
+          <df name="tests">
+            <in>dmsynth.c</in>
+          </df>
+          <in>dmsynth_main.c</in>
+          <in>dmsynth_private.h</in>
+          <in>synth.c</in>
+          <in>synthsink.c</in>
+        </df>
+        <df name="dmusic">
+          <df name="tests">
+            <in>dmusic.c</in>
+          </df>
+          <in>buffer.c</in>
+          <in>clock.c</in>
+          <in>collection.c</in>
+          <in>dmusic.c</in>
+          <in>dmusic_main.c</in>
+          <in>dmusic_private.h</in>
+          <in>download.c</in>
+          <in>instrument.c</in>
+          <in>port.c</in>
+        </df>
+        <df name="dmusic32">
+          <in>dmusic32_main.c</in>
+        </df>
+        <df name="dnsapi">
+          <df name="tests">
+            <in>name.c</in>
+            <in>record.c</in>
+          </df>
+          <in>dnsapi.h</in>
+          <in>main.c</in>
+          <in>name.c</in>
+          <in>ns_name.c</in>
+          <in>ns_parse.c</in>
+          <in>query.c</in>
+          <in>record.c</in>
+        </df>
+        <df name="dplay">
+        </df>
+        <df name="dplayx">
+          <df name="tests">
+            <in>dplayx.c</in>
+          </df>
+          <in>dpclassfactory.c</in>
+          <in>dplay.c</in>
+          <in>dplay_global.h</in>
+          <in>dplaysp.c</in>
+          <in>dplayx_global.c</in>
+          <in>dplayx_global.h</in>
+          <in>dplayx_main.c</in>
+          <in>dplayx_messages.c</in>
+          <in>dplayx_messages.h</in>
+          <in>dplayx_queue.h</in>
+          <in>dplobby.c</in>
+          <in>lobbysp.c</in>
+          <in>lobbysp.h</in>
+          <in>name_server.c</in>
+          <in>name_server.h</in>
+        </df>
+        <df name="dpnaddr">
+        </df>
+        <df name="dpnet">
+          <df name="tests">
+            <in>peer.c</in>
+          </df>
+          <in>address.c</in>
+          <in>client.c</in>
+          <in>dpnet_main.c</in>
+          <in>dpnet_private.h</in>
+          <in>lobbiedapp.c</in>
+          <in>peer.c</in>
+          <in>server.c</in>
+          <in>threadpool.c</in>
+        </df>
+        <df name="dpnhpast">
+          <in>main.c</in>
+        </df>
+        <df name="dpnlobby">
+        </df>
+        <df name="dpwsockx">
+          <in>dpwsockx_dll.h</in>
+          <in>dpwsockx_main.c</in>
+        </df>
+        <df name="drmclien">
+          <in>main.c</in>
+        </df>
+        <df name="dsound">
+          <df name="tests">
+            <in>capture.c</in>
+            <in>ds3d.c</in>
+            <in>ds3d8.c</in>
+            <in>dsound.c</in>
+            <in>dsound8.c</in>
+            <in>dsound_test.h</in>
+            <in>duplex.c</in>
+            <in>propset.c</in>
+          </df>
+          <in>buffer.c</in>
+          <in>capture.c</in>
+          <in>dsound.c</in>
+          <in>dsound_convert.c</in>
+          <in>dsound_main.c</in>
+          <in>dsound_private.h</in>
+          <in>duplex.c</in>
+          <in>fir.h</in>
+          <in>mixer.c</in>
+          <in>primary.c</in>
+          <in>propset.c</in>
+          <in>sound3d.c</in>
+        </df>
+        <df name="dssenh">
+          <df name="tests">
+            <in>dssenh.c</in>
+          </df>
+          <in>main.c</in>
+        </df>
+        <df name="dswave">
+          <in>dswave.c</in>
+          <in>dswave_main.c</in>
+          <in>dswave_private.h</in>
+        </df>
+        <df name="dwmapi">
+          <in>dwmapi_main.c</in>
+        </df>
+        <df name="dwrite">
+          <df name="tests">
+            <in>analyzer.c</in>
+            <in>font.c</in>
+            <in>layout.c</in>
+          </df>
+          <in>analyzer.c</in>
+          <in>dwrite_private.h</in>
+          <in>font.c</in>
+          <in>gdiinterop.c</in>
+          <in>layout.c</in>
+          <in>main.c</in>
+        </df>
+        <df name="dxdiagn">
+          <df name="tests">
+            <in>container.c</in>
+            <in>provider.c</in>
+          </df>
+          <in>container.c</in>
+          <in>dxdiag_main.c</in>
+          <in>dxdiag_private.h</in>
+          <in>provider.c</in>
+          <in>resource.h</in>
+        </df>
+        <df name="dxerr8">
+          <in>dxerr8.c</in>
+          <in>errors.h</in>
+        </df>
+        <df name="dxerr9">
+          <in>dxerr9.c</in>
+          <in>errors.h</in>
+        </df>
+        <df name="dxgi">
+          <df name="tests">
+            <in>device.c</in>
+          </df>
+          <in>adapter.c</in>
+          <in>device.c</in>
+          <in>dxgi_main.c</in>
+          <in>dxgi_private.h</in>
+          <in>factory.c</in>
+          <in>output.c</in>
+          <in>surface.c</in>
+          <in>swapchain.c</in>
+          <in>utils.c</in>
+        </df>
+        <df name="dxguid">
+          <in>dx10guid.c</in>
+          <in>dx8guid.c</in>
+          <in>dx9guid.c</in>
+          <in>dxguid.c</in>
+        </df>
+        <df name="explorerframe">
+          <df name="tests">
+            <in>msg.h</in>
+            <in>nstc.c</in>
+          </df>
+          <in>explorerframe_main.c</in>
+          <in>explorerframe_main.h</in>
+          <in>nstc.c</in>
+          <in>taskbarlist.c</in>
+        </df>
+        <df name="faultrep">
+          <df name="tests">
+            <in>faultrep.c</in>
+          </df>
+          <in>faultrep.c</in>
+        </df>
+        <df name="fltlib">
+          <in>fltlib.c</in>
+        </df>
+        <df name="fusion">
+          <df name="tests">
+            <in>asmcache.c</in>
+            <in>asmenum.c</in>
+            <in>asmname.c</in>
+            <in>fusion.c</in>
+          </df>
+          <in>asmcache.c</in>
+          <in>asmenum.c</in>
+          <in>asmname.c</in>
+          <in>assembly.c</in>
+          <in>fusion.c</in>
+          <in>fusionpriv.h</in>
+        </df>
+        <df name="fwpuclnt">
+          <in>main.c</in>
+        </df>
+        <df name="gameux">
+          <df name="tests">
+            <in>gameexplorer.c</in>
+            <in>gamestatistics.c</in>
+          </df>
+          <in>factory.c</in>
+          <in>gameexplorer.c</in>
+          <in>gamestatistics.c</in>
+          <in>gameux_private.h</in>
+          <in>main.c</in>
+        </df>
+        <df name="gdi.exe16">
+          <in>bidi.c</in>
+          <in>env.c</in>
+          <in>gdi.c</in>
+          <in>metafile.c</in>
+          <in>printdrv.c</in>
+        </df>
+        <df name="gdi32">
+          <df name="dibdrv">
+            <in>bitblt.c</in>
+            <in>dc.c</in>
+            <in>dibdrv.h</in>
+            <in>graphics.c</in>
+            <in>objects.c</in>
+            <in>opengl.c</in>
+            <in>primitives.c</in>
+          </df>
+          <df name="enhmfdrv">
+            <in>bitblt.c</in>
+            <in>dc.c</in>
+            <in>enhmetafiledrv.h</in>
+            <in>graphics.c</in>
+            <in>init.c</in>
+            <in>objects.c</in>
+          </df>
+          <df name="mfdrv">
+            <in>bitblt.c</in>
+            <in>dc.c</in>
+            <in>graphics.c</in>
+            <in>init.c</in>
+            <in>metafiledrv.h</in>
+            <in>objects.c</in>
+            <in>text.c</in>
+          </df>
+          <df name="tests">
+            <in>bitmap.c</in>
+            <in>brush.c</in>
+            <in>clipping.c</in>
+            <in>dc.c</in>
+            <in>dib.c</in>
+            <in>font.c</in>
+            <in>gdiobj.c</in>
+            <in>generated.c</in>
+            <in>icm.c</in>
+            <in>mapping.c</in>
+            <in>metafile.c</in>
+            <in>palette.c</in>
+            <in>path.c</in>
+            <in>pen.c</in>
+          </df>
+          <in>bidi.c</in>
+          <in>bitblt.c</in>
+          <in>bitmap.c</in>
+          <in>brush.c</in>
+          <in>clipping.c</in>
+          <in>dc.c</in>
+          <in>dib.c</in>
+          <in>driver.c</in>
+          <in>enhmetafile.c</in>
+          <in>font.c</in>
+          <in>freetype.c</in>
+          <in>gdi_private.h</in>
+          <in>gdiobj.c</in>
+          <in>icm.c</in>
+          <in>mapping.c</in>
+          <in>metafile.c</in>
+          <in>opengl.c</in>
+          <in>painting.c</in>
+          <in>palette.c</in>
+          <in>path.c</in>
+          <in>pen.c</in>
+          <in>printdrv.c</in>
+          <in>region.c</in>
+          <in>resource.h</in>
+        </df>
+        <df name="gdiplus">
+          <df name="tests">
+            <in>brush.c</in>
+            <in>customlinecap.c</in>
+            <in>font.c</in>
+            <in>graphics.c</in>
+            <in>graphicspath.c</in>
+            <in>image.c</in>
+            <in>matrix.c</in>
+            <in>metafile.c</in>
+            <in>pathiterator.c</in>
+            <in>pen.c</in>
+            <in>region.c</in>
+            <in>stringformat.c</in>
+          </df>
+          <in>brush.c</in>
+          <in>customlinecap.c</in>
+          <in>font.c</in>
+          <in>gdiplus.c</in>
+          <in>gdiplus_private.h</in>
+          <in>graphics.c</in>
+          <in>graphicspath.c</in>
+          <in>image.c</in>
+          <in>imageattributes.c</in>
+          <in>matrix.c</in>
+          <in>metafile.c</in>
+          <in>pathiterator.c</in>
+          <in>pen.c</in>
+          <in>region.c</in>
+          <in>stringformat.c</in>
+        </df>
+        <df name="glu32">
+          <in>glu.c</in>
+        </df>
+        <df name="gphoto2.ds">
+          <in>capability.c</in>
+          <in>ds_image.c</in>
+          <in>gphoto2_i.h</in>
+          <in>gphoto2_main.c</in>
+          <in>resource.h</in>
+          <in>ui.c</in>
+        </df>
+        <df name="gpkcsp">
+          <in>main.c</in>
+        </df>
+        <df name="hal">
+          <in>hal.c</in>
+        </df>
+        <df name="hhctrl.ocx">
+          <in>chm.c</in>
+          <in>content.c</in>
+          <in>help.c</in>
+          <in>hhctrl.c</in>
+          <in>hhctrl.h</in>
+          <in>index.c</in>
+          <in>resource.h</in>
+          <in>search.c</in>
+          <in>stream.c</in>
+          <in>stream.h</in>
+          <in>webbrowser.c</in>
+        </df>
+        <df name="hid">
+          <in>main.c</in>
+        </df>
+        <df name="hlink">
+          <df name="tests">
+            <in>browse_ctx.c</in>
+            <in>hlink.c</in>
+          </df>
+          <in>browse_ctx.c</in>
+          <in>extserv.c</in>
+          <in>hlink_main.c</in>
+          <in>hlink_private.h</in>
+          <in>link.c</in>
+        </df>
+        <df name="hnetcfg">
+          <in>apps.c</in>
+          <in>hnetcfg.c</in>
+          <in>hnetcfg_private.h</in>
+          <in>manager.c</in>
+          <in>policy.c</in>
+          <in>port.c</in>
+          <in>profile.c</in>
+          <in>service.c</in>
+        </df>
+        <df name="httpapi">
+          <in>httpapi_main.c</in>
+        </df>
+        <df name="iccvid">
+          <in>iccvid.c</in>
+          <in>iccvid_private.h</in>
+        </df>
+        <df name="icmp">
+        </df>
+        <df name="ieframe">
+          <df name="tests">
+            <in>ie.c</in>
+            <in>intshcut.c</in>
+            <in>webbrowser.c</in>
+          </df>
+          <in>classinfo.c</in>
+          <in>client.c</in>
+          <in>dochost.c</in>
+          <in>events.c</in>
+          <in>frame.c</in>
+          <in>ie.c</in>
+          <in>ieframe.h</in>
+          <in>ieframe_main.c</in>
+          <in>iehtmlwnd.c</in>
+          <in>iexplore.c</in>
+          <in>intshcut.c</in>
+          <in>navigate.c</in>
+          <in>oleobject.c</in>
+          <in>persist.c</in>
+          <in>resource.h</in>
+          <in>shellbrowser.c</in>
+          <in>shelluihelper.c</in>
+          <in>urlhist.c</in>
+          <in>view.c</in>
+          <in>webbrowser.c</in>
+        </df>
+        <df name="ifsmgr.vxd">
+          <in>ifsmgr.c</in>
+        </df>
+        <df name="imaadp32.acm">
+          <in>imaadp32.c</in>
+        </df>
+        <df name="imagehlp">
+          <df name="tests">
+            <in>image.c</in>
+            <in>integrity.c</in>
+          </df>
+          <in>access.c</in>
+          <in>imagehlp_main.c</in>
+          <in>integrity.c</in>
+          <in>modify.c</in>
+        </df>
+        <df name="imm.dll16">
+        </df>
+        <df name="imm32">
+          <df name="tests">
+            <in>imm32.c</in>
+          </df>
+          <in>imm.c</in>
+        </df>
+        <df name="inetcomm">
+          <df name="tests">
+            <in>mimeintl.c</in>
+            <in>mimeole.c</in>
+          </df>
+          <in>imaptransport.c</in>
+          <in>inetcomm_main.c</in>
+          <in>inetcomm_private.h</in>
+          <in>internettransport.c</in>
+          <in>mimeintl.c</in>
+          <in>mimeole.c</in>
+          <in>pop3transport.c</in>
+          <in>smtptransport.c</in>
+        </df>
+        <df name="inetcpl.cpl">
+          <in>content.c</in>
+          <in>general.c</in>
+          <in>inetcpl.c</in>
+          <in>inetcpl.h</in>
+          <in>security.c</in>
+        </df>
+        <df name="inetmib1">
+          <df name="tests">
+            <in>main.c</in>
+          </df>
+          <in>main.c</in>
+        </df>
+        <df name="infosoft">
+          <df name="tests">
+            <in>infosoft.c</in>
+          </df>
+          <in>infosoft_main.c</in>
+          <in>wordbreaker.c</in>
+        </df>
+        <df name="initpki">
+          <in>main.c</in>
+        </df>
+        <df name="inkobj">
+          <in>inkobj.c</in>
+          <in>inkobj_internal.h</in>
+        </df>
+        <df name="inseng">
+          <in>inseng_main.c</in>
+        </df>
+        <df name="iphlpapi">
+          <df name="tests">
+            <in>iphlpapi.c</in>
+          </df>
+          <in>icmp.c</in>
+          <in>ifenum.c</in>
+          <in>ifenum.h</in>
+          <in>ip.h</in>
+          <in>ip_icmp.h</in>
+          <in>iphlpapi_main.c</in>
+          <in>ipstats.c</in>
+          <in>ipstats.h</in>
+        </df>
+        <df name="itircl">
+          <in>itircl_main.c</in>
+        </df>
+        <df name="itss">
+          <df name="tests">
+            <in>protocol.c</in>
+          </df>
+          <in>chm_lib.c</in>
+          <in>chm_lib.h</in>
+          <in>itss.c</in>
+          <in>itsstor.h</in>
+          <in>lzx.c</in>
+          <in>lzx.h</in>
+          <in>moniker.c</in>
+          <in>protocol.c</in>
+          <in>storage.c</in>
+        </df>
+        <df name="joy.cpl">
+          <in>joy.h</in>
+          <in>main.c</in>
+        </df>
+        <df name="jscript">
+          <df name="tests">
+            <in>activex.c</in>
+            <in>caller.c</in>
+            <in>jscript.c</in>
+            <in>run.c</in>
+          </df>
+          <in>activex.c</in>
+          <in>array.c</in>
+          <in>bool.c</in>
+          <in>compile.c</in>
+          <in>date.c</in>
+          <in>decode.c</in>
+          <in>dispex.c</in>
+          <in>engine.c</in>
+          <in>engine.h</in>
+          <in>error.c</in>
+          <in>function.c</in>
+          <in>global.c</in>
+          <in>jscript.c</in>
+          <in>jscript.h</in>
+          <in>jscript_main.c</in>
+          <in>jsglobal_dispid.h</in>
+          <in>jsregexp.c</in>
+          <in>jsstr.c</in>
+          <in>jsstr.h</in>
+          <in>jsutils.c</in>
+          <in>jsval.h</in>
+          <in>lex.c</in>
+          <in>math.c</in>
+          <in>number.c</in>
+          <in>object.c</in>
+          <in>regexp.c</in>
+          <in>regexp.h</in>
+          <in>resource.h</in>
+          <in>string.c</in>
+          <in>vbarray.c</in>
+        </df>
+        <df name="kernel32">
+          <df name="nls">
+          </df>
+          <df name="tests">
+            <in>actctx.c</in>
+            <in>alloc.c</in>
+            <in>atom.c</in>
+            <in>change.c</in>
+            <in>codepage.c</in>
+            <in>comm.c</in>
+            <in>console.c</in>
+            <in>debugger.c</in>
+            <in>directory.c</in>
+            <in>drive.c</in>
+            <in>environ.c</in>
+            <in>fiber.c</in>
+            <in>file.c</in>
+            <in>format_msg.c</in>
+            <in>generated.c</in>
+            <in>heap.c</in>
+            <in>loader.c</in>
+            <in>locale.c</in>
+            <in>mailslot.c</in>
+            <in>module.c</in>
+            <in>path.c</in>
+            <in>pipe.c</in>
+            <in>process.c</in>
+            <in>profile.c</in>
+            <in>resource.c</in>
+            <in>sync.c</in>
+            <in>thread.c</in>
+            <in>time.c</in>
+            <in>timer.c</in>
+            <in>toolhelp.c</in>
+            <in>version.c</in>
+            <in>virtual.c</in>
+            <in>volume.c</in>
+          </df>
+          <in>actctx.c</in>
+          <in>atom.c</in>
+          <in>change.c</in>
+          <in>comm.c</in>
+          <in>computername.c</in>
+          <in>console.c</in>
+          <in>console_private.h</in>
+          <in>cpu.c</in>
+          <in>debugger.c</in>
+          <in>editline.c</in>
+          <in>environ.c</in>
+          <in>except.c</in>
+          <in>fiber.c</in>
+          <in>file.c</in>
+          <in>format_msg.c</in>
+          <in>heap.c</in>
+          <in>kernel_main.c</in>
+          <in>kernel_private.h</in>
+          <in>lcformat.c</in>
+          <in>locale.c</in>
+          <in>lzexpand.c</in>
+          <in>module.c</in>
+          <in>nameprep.c</in>
+          <in>oldconfig.c</in>
+          <in>path.c</in>
+          <in>powermgnt.c</in>
+          <in>process.c</in>
+          <in>profile.c</in>
+          <in>resource.c</in>
+          <in>string.c</in>
+          <in>sync.c</in>
+          <in>tape.c</in>
+          <in>term.c</in>
+          <in>thread.c</in>
+          <in>time.c</in>
+          <in>toolhelp.c</in>
+          <in>version.c</in>
+          <in>virtual.c</in>
+          <in>volume.c</in>
+          <in>wer.c</in>
+        </df>
+        <df name="keyboard.drv16">
+          <in>keyboard.c</in>
+        </df>
+        <df name="krnl386.exe16">
+          <in>atom.c</in>
+          <in>dma.c</in>
+          <in>dosaspi.c</in>
+          <in>dosdev.c</in>
+          <in>dosexe.c</in>
+          <in>dosexe.h</in>
+          <in>dosmem.c</in>
+          <in>dosvm.c</in>
+          <in>error.c</in>
+          <in>file.c</in>
+          <in>fpu.c</in>
+          <in>global.c</in>
+          <in>instr.c</in>
+          <in>int09.c</in>
+          <in>int10.c</in>
+          <in>int13.c</in>
+          <in>int15.c</in>
+          <in>int16.c</in>
+          <in>int21.c</in>
+          <in>int25.c</in>
+          <in>int26.c</in>
+          <in>int2f.c</in>
+          <in>int31.c</in>
+          <in>int33.c</in>
+          <in>int67.c</in>
+          <in>interrupts.c</in>
+          <in>ioports.c</in>
+          <in>kernel.c</in>
+          <in>kernel16_private.h</in>
+          <in>local.c</in>
+          <in>ne_module.c</in>
+          <in>ne_segment.c</in>
+          <in>registry.c</in>
+          <in>relay.c</in>
+          <in>resource.c</in>
+          <in>selector.c</in>
+          <in>snoop.c</in>
+          <in>soundblaster.c</in>
+          <in>syslevel.c</in>
+          <in>task.c</in>
+          <in>thunk.c</in>
+          <in>timer.c</in>
+          <in>utthunk.c</in>
+          <in>vga.c</in>
+          <in>vga.h</in>
+          <in>vxd.c</in>
+          <in>wowthunk.c</in>
+        </df>
+        <df name="ktmw32">
+          <in>ktmw32_main.c</in>
+        </df>
+        <df name="loadperf">
+          <in>loadperf_main.c</in>
+        </df>
+        <df name="localspl">
+          <df name="tests">
+            <in>localmon.c</in>
+          </df>
+          <in>localmon.c</in>
+          <in>localspl_main.c</in>
+          <in>localspl_private.h</in>
+          <in>provider.c</in>
+        </df>
+        <df name="localui">
+          <df name="tests">
+            <in>localui.c</in>
+          </df>
+          <in>localui.c</in>
+          <in>localui.h</in>
+        </df>
+        <df name="lz32">
+          <df name="tests">
+            <in>lzexpand_main.c</in>
+          </df>
+        </df>
+        <df name="lzexpand.dll16">
+          <in>lzexpand.c</in>
+        </df>
+        <df name="mapi32">
+          <df name="tests">
+            <in>imalloc.c</in>
+            <in>mapi32_test.h</in>
+            <in>prop.c</in>
+            <in>util.c</in>
+          </df>
+          <in>imalloc.c</in>
+          <in>mapi32_main.c</in>
+          <in>prop.c</in>
+          <in>res.h</in>
+          <in>sendmail.c</in>
+          <in>util.c</in>
+          <in>util.h</in>
+        </df>
+        <df name="mapistub">
+          <in>main.c</in>
+        </df>
+        <df name="mciavi32">
+          <in>info.c</in>
+          <in>mciavi.c</in>
+          <in>mmoutput.c</in>
+          <in>private_mciavi.h</in>
+          <in>wnd.c</in>
+        </df>
+        <df name="mcicda">
+          <in>mcicda.c</in>
+        </df>
+        <df name="mciqtz32">
+          <in>mciqtz.c</in>
+          <in>mciqtz_private.h</in>
+        </df>
+        <df name="mciseq">
+          <in>mcimidi.c</in>
+        </df>
+        <df name="mciwave">
+          <in>mciwave.c</in>
+        </df>
+        <df name="mgmtapi">
+          <in>mgmtapi.c</in>
+        </df>
+        <df name="midimap">
+          <in>midimap.c</in>
+        </df>
+        <df name="mlang">
+          <df name="tests">
+            <in>mlang.c</in>
+          </df>
+          <in>mlang.c</in>
+        </df>
+        <df name="mmcndmgr">
+          <df name="tests">
+            <in>mmcndmgr.c</in>
+          </df>
+          <in>mmcndmgr.c</in>
+        </df>
+        <df name="mmdevapi">
+          <df name="tests">
+            <in>capture.c</in>
+            <in>dependency.c</in>
+            <in>mmdevenum.c</in>
+            <in>propstore.c</in>
+            <in>render.c</in>
+          </df>
+          <in>audiovolume.c</in>
+          <in>devenum.c</in>
+          <in>main.c</in>
+          <in>mmdevapi.h</in>
+        </df>
+        <df name="mmdevldr.vxd">
+          <in>mmdevldr.c</in>
+        </df>
+        <df name="mmsystem.dll16">
+          <in>driver.c</in>
+          <in>mci16.c</in>
+          <in>message16.c</in>
+          <in>mmio16.c</in>
+          <in>mmsystem.c</in>
+          <in>winemm16.h</in>
+        </df>
+        <df name="monodebg.vxd">
+          <in>monodebg.c</in>
+        </df>
+        <df name="mountmgr.sys">
+          <in>dbus.c</in>
+          <in>device.c</in>
+          <in>diskarb.c</in>
+          <in>mountmgr.c</in>
+          <in>mountmgr.h</in>
+        </df>
+        <df name="mouse.drv16">
+          <in>mouse.c</in>
+        </df>
+        <df name="mpr">
+          <df name="tests">
+            <in>mpr.c</in>
+          </df>
+          <in>auth.c</in>
+          <in>mpr_main.c</in>
+          <in>mprres.h</in>
+          <in>multinet.c</in>
+          <in>netspi.h</in>
+          <in>nps.c</in>
+          <in>pwcache.c</in>
+          <in>wnet.c</in>
+          <in>wnetpriv.h</in>
+        </df>
+        <df name="mprapi">
+          <in>mprapi.c</in>
+        </df>
+        <df name="msacm.dll16">
+          <in>msacm.c</in>
+          <in>wineacm16.h</in>
+        </df>
+        <df name="msacm32">
+          <df name="tests">
+            <in>msacm.c</in>
+          </df>
+          <in>driver.c</in>
+          <in>filter.c</in>
+          <in>format.c</in>
+          <in>internal.c</in>
+          <in>msacm32_main.c</in>
+          <in>pcmconverter.c</in>
+          <in>stream.c</in>
+          <in>wineacm.h</in>
+        </df>
+        <df name="msacm32.drv">
+          <in>wavemap.c</in>
+        </df>
+        <df name="msadp32.acm">
+          <in>msadp32.c</in>
+        </df>
+        <df name="mscat32">
+          <in>main.c</in>
+        </df>
+        <df name="mscms">
+          <df name="tests">
+            <in>profile.c</in>
+          </df>
+          <in>handle.c</in>
+          <in>icc.c</in>
+          <in>mscms_main.c</in>
+          <in>mscms_priv.h</in>
+          <in>profile.c</in>
+          <in>stub.c</in>
+          <in>transform.c</in>
+        </df>
+        <df name="mscoree">
+          <df name="tests">
+            <in>debugging.c</in>
+            <in>metahost.c</in>
+            <in>mscoree.c</in>
+          </df>
+          <in>assembly.c</in>
+          <in>config.c</in>
+          <in>cordebug.c</in>
+          <in>corruntimehost.c</in>
+          <in>metadata.c</in>
+          <in>metahost.c</in>
+          <in>mscoree_main.c</in>
+          <in>mscoree_private.h</in>
+        </df>
+        <df name="msctf">
+          <df name="tests">
+            <in>inputprocessor.c</in>
+          </df>
+          <in>categorymgr.c</in>
+          <in>compartmentmgr.c</in>
+          <in>context.c</in>
+          <in>displayattributemgr.c</in>
+          <in>documentmgr.c</in>
+          <in>inputprocessor.c</in>
+          <in>langbarmgr.c</in>
+          <in>msctf.c</in>
+          <in>msctf_internal.h</in>
+          <in>range.c</in>
+          <in>threadmgr.c</in>
+        </df>
+        <df name="msdaps">
+          <in>main.c</in>
+          <in>row_server.c</in>
+          <in>usrmarshal.c</in>
+        </df>
+        <df name="msdmo">
+          <in>dmoreg.c</in>
+          <in>dmort.c</in>
+        </df>
+        <df name="msftedit">
+          <in>msftedit_main.c</in>
+        </df>
+        <df name="msg711.acm">
+          <in>msg711.c</in>
+        </df>
+        <df name="msgsm32.acm">
+          <in>msgsm32.c</in>
+        </df>
+        <df name="mshtml">
+          <df name="tests">
+            <in>activex.c</in>
+            <in>dom.c</in>
+            <in>events.c</in>
+            <in>htmldoc.c</in>
+            <in>htmllocation.c</in>
+            <in>misc.c</in>
+            <in>mshtml_test.h</in>
+            <in>protocol.c</in>
+            <in>script.c</in>
+            <in>style.c</in>
+          </df>
+          <in>binding.h</in>
+          <in>conpoint.c</in>
+          <in>dispex.c</in>
+          <in>editor.c</in>
+          <in>hlink.c</in>
+          <in>htmlanchor.c</in>
+          <in>htmlattr.c</in>
+          <in>htmlbody.c</in>
+          <in>htmlcomment.c</in>
+          <in>htmlcurstyle.c</in>
+          <in>htmldoc.c</in>
+          <in>htmldoc3.c</in>
+          <in>htmldoc5.c</in>
+          <in>htmlelem.c</in>
+          <in>htmlelem2.c</in>
+          <in>htmlelem3.c</in>
+          <in>htmlelemcol.c</in>
+          <in>htmlembed.c</in>
+          <in>htmlevent.c</in>
+          <in>htmlevent.h</in>
+          <in>htmlform.c</in>
+          <in>htmlframe.c</in>
+          <in>htmlframebase.c</in>
+          <in>htmlgeneric.c</in>
+          <in>htmlhead.c</in>
+          <in>htmliframe.c</in>
+          <in>htmlimg.c</in>
+          <in>htmlinput.c</in>
+          <in>htmllink.c</in>
+          <in>htmllocation.c</in>
+          <in>htmlmeta.c</in>
+          <in>htmlnode.c</in>
+          <in>htmlobject.c</in>
+          <in>htmloption.c</in>
+          <in>htmlscreen.c</in>
+          <in>htmlscript.c</in>
+          <in>htmlscript.h</in>
+          <in>htmlselect.c</in>
+          <in>htmlstorage.c</in>
+          <in>htmlstyle.c</in>
+          <in>htmlstyle.h</in>
+          <in>htmlstyle2.c</in>
+          <in>htmlstyle3.c</in>
+          <in>htmlstyleelem.c</in>
+          <in>htmlstylesheet.c</in>
+          <in>htmltable.c</in>
+          <in>htmltablecell.c</in>
+          <in>htmltablerow.c</in>
+          <in>htmltextarea.c</in>
+          <in>htmltextcont.c</in>
+          <in>htmltextnode.c</in>
+          <in>htmlwindow.c</in>
+          <in>ifacewrap.c</in>
+          <in>ipwindow.c</in>
+          <in>loadopts.c</in>
+          <in>main.c</in>
+          <in>mshtml_private.h</in>
+          <in>mutation.c</in>
+          <in>navigate.c</in>
+          <in>npplugin.c</in>
+          <in>nsembed.c</in>
+          <in>nsevents.c</in>
+          <in>nsio.c</in>
+          <in>nsservice.c</in>
+          <in>olecmd.c</in>
+          <in>oleobj.c</in>
+          <in>olewnd.c</in>
+          <in>omnavigator.c</in>
+          <in>persist.c</in>
+          <in>pluginhost.c</in>
+          <in>pluginhost.h</in>
+          <in>propbag.c</in>
+          <in>protocol.c</in>
+          <in>resource.h</in>
+          <in>script.c</in>
+          <in>secmgr.c</in>
+          <in>selection.c</in>
+          <in>service.c</in>
+          <in>task.c</in>
+          <in>txtrange.c</in>
+          <in>view.c</in>
+        </df>
+        <df name="mshtml.tlb">
+        </df>
+        <df name="msi">
+          <df name="tests">
+            <in>action.c</in>
+            <in>automation.c</in>
+            <in>db.c</in>
+            <in>format.c</in>
+            <in>install.c</in>
+            <in>msi.c</in>
+            <in>package.c</in>
+            <in>patch.c</in>
+            <in>record.c</in>
+            <in>source.c</in>
+            <in>suminfo.c</in>
+          </df>
+          <in>action.c</in>
+          <in>alter.c</in>
+          <in>appsearch.c</in>
+          <in>assembly.c</in>
+          <in>automation.c</in>
+          <in>classes.c</in>
+          <in>create.c</in>
+          <in>custom.c</in>
+          <in>database.c</in>
+          <in>delete.c</in>
+          <in>dialog.c</in>
+          <in>distinct.c</in>
+          <in>drop.c</in>
+          <in>files.c</in>
+          <in>font.c</in>
+          <in>format.c</in>
+          <in>handle.c</in>
+          <in>insert.c</in>
+          <in>install.c</in>
+          <in>media.c</in>
+          <in>msi.c</in>
+          <in>msi_main.c</in>
+          <in>msipriv.h</in>
+          <in>msiquery.c</in>
+          <in>msiserver_dispids.h</in>
+          <in>package.c</in>
+          <in>patch.c</in>
+          <in>query.h</in>
+          <in>record.c</in>
+          <in>registry.c</in>
+          <in>script.c</in>
+          <in>select.c</in>
+          <in>source.c</in>
+          <in>storages.c</in>
+          <in>streams.c</in>
+          <in>string.c</in>
+          <in>suminfo.c</in>
+          <in>table.c</in>
+          <in>tokenize.c</in>
+          <in>update.c</in>
+          <in>upgrade.c</in>
+          <in>where.c</in>
+        </df>
+        <df name="msident">
+          <in>msident.c</in>
+        </df>
+        <df name="msimg32">
+          <in>msimg32_main.c</in>
+        </df>
+        <df name="msimsg">
+        </df>
+        <df name="msimtf">
+          <in>activeimmapp.c</in>
+          <in>main.c</in>
+        </df>
+        <df name="msisip">
+          <in>main.c</in>
+        </df>
+        <df name="msisys.ocx">
+          <in>msisys.c</in>
+        </df>
+        <df name="msls31">
+          <in>msls31_main.c</in>
+        </df>
+        <df name="msnet32">
+          <in>msnet_main.c</in>
+        </df>
+        <df name="mspatcha">
+          <in>mspatcha_main.c</in>
+        </df>
+        <df name="msrle32">
+          <in>msrle32.c</in>
+          <in>msrle_private.h</in>
+        </df>
+        <df name="mssign32">
+          <in>mssign32_main.c</in>
+        </df>
+        <df name="mssip32">
+          <in>main.c</in>
+        </df>
+        <df name="mstask">
+          <df name="tests">
+            <in>task.c</in>
+            <in>task_scheduler.c</in>
+            <in>task_trigger.c</in>
+          </df>
+          <in>factory.c</in>
+          <in>mstask_main.c</in>
+          <in>mstask_private.h</in>
+          <in>task.c</in>
+          <in>task_scheduler.c</in>
+          <in>task_trigger.c</in>
+        </df>
+        <df name="msvcirt">
+          <in>msvcirt.c</in>
+        </df>
+        <df name="msvcm80">
+          <in>msvcm80_main.c</in>
+        </df>
+        <df name="msvcm90">
+          <in>msvcm90_main.c</in>
+        </df>
+        <df name="msvcp100">
+          <df name="tests">
+            <in>misc.c</in>
+            <in>string.c</in>
+          </df>
+          <in>cxx.h</in>
+          <in>exception.c</in>
+          <in>ios.c</in>
+          <in>locale.c</in>
+          <in>math.c</in>
+          <in>memory.c</in>
+          <in>misc.c</in>
+          <in>msvcp.h</in>
+          <in>msvcp100.c</in>
+          <in>string.c</in>
+        </df>
+        <df name="msvcp110">
+          <in>msvcp110.c</in>
+        </df>
+        <df name="msvcp60">
+          <df name="tests">
+            <in>ios.c</in>
+            <in>string.c</in>
+          </df>
+          <in>cxx.h</in>
+          <in>exception.c</in>
+          <in>ios.c</in>
+          <in>locale.c</in>
+          <in>main.c</in>
+          <in>memory.c</in>
+          <in>misc.c</in>
+          <in>msvcp.h</in>
+          <in>string.c</in>
+        </df>
+        <df name="msvcp70">
+          <in>msvcp70.c</in>
+        </df>
+        <df name="msvcp71">
+          <in>cxx.h</in>
+          <in>exception.c</in>
+          <in>ios.c</in>
+          <in>locale.c</in>
+          <in>math.c</in>
+          <in>memory.c</in>
+          <in>misc.c</in>
+          <in>msvcp.h</in>
+          <in>msvcp71.c</in>
+          <in>string.c</in>
+        </df>
+        <df name="msvcp80">
+          <in>cxx.h</in>
+          <in>exception.c</in>
+          <in>ios.c</in>
+          <in>locale.c</in>
+          <in>math.c</in>
+          <in>memory.c</in>
+          <in>misc.c</in>
+          <in>msvcp.h</in>
+          <in>msvcp80_main.c</in>
+          <in>string.c</in>
+        </df>
+        <df name="msvcp90">
+          <df name="tests">
+            <in>ios.c</in>
+            <in>misc.c</in>
+            <in>string.c</in>
+          </df>
+          <in>cxx.h</in>
+          <in>exception.c</in>
+          <in>ios.c</in>
+          <in>locale.c</in>
+          <in>math.c</in>
+          <in>memory.c</in>
+          <in>misc.c</in>
+          <in>msvcp90.h</in>
+          <in>msvcp90_main.c</in>
+          <in>string.c</in>
+        </df>
+        <df name="msvcr100">
+          <df name="tests">
+            <in>msvcr100.c</in>
+          </df>
+          <in>msvcr100.c</in>
+        </df>
+        <df name="msvcr110">
+          <in>msvcr110.c</in>
+        </df>
+        <df name="msvcr70">
+          <in>msvcr70.c</in>
+        </df>
+        <df name="msvcr71">
+          <in>msvcr71.c</in>
+        </df>
+        <df name="msvcr80">
+          <in>msvcr80.c</in>
+        </df>
+        <df name="msvcr90">
+          <df name="tests">
+            <in>msvcr90.c</in>
+          </df>
+          <in>msvcr90.c</in>
+        </df>
+        <df name="msvcrt">
+          <df name="tests">
+            <in>cpp.c</in>
+            <in>data.c</in>
+            <in>dir.c</in>
+            <in>environ.c</in>
+            <in>file.c</in>
+            <in>headers.c</in>
+            <in>heap.c</in>
+            <in>locale.c</in>
+            <in>misc.c</in>
+            <in>printf.c</in>
+            <in>scanf.c</in>
+            <in>signal.c</in>
+            <in>string.c</in>
+            <in>time.c</in>
+          </df>
+          <in>console.c</in>
+          <in>cpp.c</in>
+          <in>cppexcept.h</in>
+          <in>ctype.c</in>
+          <in>cxx.h</in>
+          <in>data.c</in>
+          <in>dir.c</in>
+          <in>environ.c</in>
+          <in>errno.c</in>
+          <in>except.c</in>
+          <in>except_arm.c</in>
+          <in>except_i386.c</in>
+          <in>except_x86_64.c</in>
+          <in>exit.c</in>
+          <in>file.c</in>
+          <in>heap.c</in>
+          <in>locale.c</in>
+          <in>lock.c</in>
+          <in>main.c</in>
+          <in>math.c</in>
+          <in>mbcs.c</in>
+          <in>misc.c</in>
+          <in>msvcrt.h</in>
+          <in>mtdll.h</in>
+          <in>printf.h</in>
+          <in>process.c</in>
+          <in>scanf.c</in>
+          <in>scanf.h</in>
+          <in>string.c</in>
+          <in>thread.c</in>
+          <in>time.c</in>
+          <in>undname.c</in>
+          <in>wcs.c</in>
+        </df>
+        <df name="msvcrt20">
+          <in>msvcrt20.c</in>
+        </df>
+        <df name="msvcrt40">
+          <in>msvcrt40.c</in>
+        </df>
+        <df name="msvcrtd">
+          <df name="tests">
+            <in>debug.c</in>
+          </df>
+          <in>debug.c</in>
+        </df>
+        <df name="msvfw32">
+          <df name="tests">
+            <in>msvfw.c</in>
+          </df>
+          <in>drawdib.c</in>
+          <in>mciwnd.c</in>
+          <in>msvideo_main.c</in>
+          <in>msvideo_private.h</in>
+        </df>
+        <df name="msvidc32">
+          <in>msvidc32_private.h</in>
+          <in>msvideo1.c</in>
+        </df>
+        <df name="msvideo.dll16">
+          <in>msvideo16.c</in>
+          <in>vfw16.h</in>
+        </df>
+        <df name="mswsock">
+          <in>mswsock.c</in>
+        </df>
+        <df name="msxml">
+          <in>main.c</in>
+        </df>
+        <df name="msxml2">
+          <in>main.c</in>
+        </df>
+        <df name="msxml3">
+          <df name="tests">
+            <in>domdoc.c</in>
+            <in>httpreq.c</in>
+            <in>saxreader.c</in>
+            <in>schema.c</in>
+            <in>xmldoc.c</in>
+            <in>xmlparser.c</in>
+            <in>xmlview.c</in>
+          </df>
+          <in>attribute.c</in>
+          <in>bsc.c</in>
+          <in>cdata.c</in>
+          <in>comment.c</in>
+          <in>dispex.c</in>
+          <in>docfrag.c</in>
+          <in>doctype.c</in>
+          <in>domdoc.c</in>
+          <in>domimpl.c</in>
+          <in>element.c</in>
+          <in>entityref.c</in>
+          <in>factory.c</in>
+          <in>httprequest.c</in>
+          <in>main.c</in>
+          <in>msxml_private.h</in>
+          <in>mxnamespace.c</in>
+          <in>mxwriter.c</in>
+          <in>node.c</in>
+          <in>nodelist.c</in>
+          <in>nodemap.c</in>
+          <in>parseerror.c</in>
+          <in>pi.c</in>
+          <in>saxreader.c</in>
+          <in>schema.c</in>
+          <in>selection.c</in>
+          <in>stylesheet.c</in>
+          <in>text.c</in>
+          <in>uuid.c</in>
+          <in>xdr.c</in>
+          <in>xmldoc.c</in>
+          <in>xmlelem.c</in>
+          <in>xmlparser.c</in>
+          <in>xmlview.c</in>
+          <in>xslpattern.h</in>
+        </df>
+        <df name="msxml4">
+          <in>main.c</in>
+        </df>
+        <df name="msxml6">
+          <in>main.c</in>
+        </df>
+        <df name="nddeapi">
+          <in>nddeapi.c</in>
+        </df>
+        <df name="netapi32">
+          <df name="tests">
+            <in>access.c</in>
+            <in>apibuf.c</in>
+            <in>ds.c</in>
+            <in>wksta.c</in>
+          </df>
+          <in>access.c</in>
+          <in>apibuf.c</in>
+          <in>browsr.c</in>
+          <in>ds.c</in>
+          <in>local_group.c</in>
+          <in>nbcmdqueue.c</in>
+          <in>nbcmdqueue.h</in>
+          <in>nbnamecache.c</in>
+          <in>nbnamecache.h</in>
+          <in>nbt.c</in>
+          <in>netapi32.c</in>
+          <in>netbios.c</in>
+          <in>netbios.h</in>
+          <in>share.c</in>
+          <in>wksta.c</in>
+        </df>
+        <df name="netcfgx">
+          <in>main.c</in>
+        </df>
+        <df name="newdev">
+          <in>main.c</in>
+        </df>
+        <df name="normaliz">
+          <in>normaliz.c</in>
+        </df>
+        <df name="npmshtml">
+          <in>main.c</in>
+        </df>
+        <df name="ntdll">
+          <df name="tests">
+            <in>atom.c</in>
+            <in>change.c</in>
+            <in>directory.c</in>
+            <in>env.c</in>
+            <in>error.c</in>
+            <in>exception.c</in>
+            <in>file.c</in>
+            <in>generated.c</in>
+            <in>info.c</in>
+            <in>large_int.c</in>
+            <in>ntdll_test.h</in>
+            <in>om.c</in>
+            <in>path.c</in>
+            <in>pipe.c</in>
+            <in>port.c</in>
+            <in>reg.c</in>
+            <in>rtl.c</in>
+            <in>rtlbitmap.c</in>
+            <in>rtlstr.c</in>
+            <in>string.c</in>
+            <in>time.c</in>
+          </df>
+          <in>actctx.c</in>
+          <in>atom.c</in>
+          <in>cdrom.c</in>
+          <in>critsection.c</in>
+          <in>debugbuffer.c</in>
+          <in>debugtools.c</in>
+          <in>directory.c</in>
+          <in>env.c</in>
+          <in>error.c</in>
+          <in>exception.c</in>
+          <in>file.c</in>
+          <in>handletable.c</in>
+          <in>heap.c</in>
+          <in>large_int.c</in>
+          <in>loader.c</in>
+          <in>loadorder.c</in>
+          <in>misc.c</in>
+          <in>nt.c</in>
+          <in>ntdll_misc.h</in>
+          <in>om.c</in>
+          <in>path.c</in>
+          <in>printf.c</in>
+          <in>process.c</in>
+          <in>reg.c</in>
+          <in>relay.c</in>
+          <in>resource.c</in>
+          <in>rtl.c</in>
+          <in>rtlbitmap.c</in>
+          <in>rtlstr.c</in>
+          <in>sec.c</in>
+          <in>serial.c</in>
+          <in>server.c</in>
+          <in>signal_arm.c</in>
+          <in>signal_arm64.c</in>
+          <in>signal_i386.c</in>
+          <in>signal_powerpc.c</in>
+          <in>signal_x86_64.c</in>
+          <in>string.c</in>
+          <in>sync.c</in>
+          <in>tape.c</in>
+          <in>thread.c</in>
+          <in>threadpool.c</in>
+          <in>time.c</in>
+          <in>version.c</in>
+          <in>virtual.c</in>
+          <in>wcstring.c</in>
+        </df>
+        <df name="ntdsapi">
+          <df name="tests">
+            <in>ntdsapi.c</in>
+          </df>
+          <in>ntdsapi.c</in>
+        </df>
+        <df name="ntoskrnl.exe">
+          <in>instr.c</in>
+          <in>ntoskrnl.c</in>
+        </df>
+        <df name="ntprint">
+          <df name="tests">
+            <in>ntprint.c</in>
+          </df>
+          <in>ntprint.c</in>
+        </df>
+        <df name="objsel">
+          <in>factory.c</in>
+          <in>objsel.c</in>
+          <in>objsel_private.h</in>
+        </df>
+        <df name="odbc32">
+          <in>proxyodbc.c</in>
+        </df>
+        <df name="odbccp32">
+          <df name="tests">
+            <in>misc.c</in>
+          </df>
+          <in>odbccp32.c</in>
+        </df>
+        <df name="odbccu32">
+        </df>
+        <df name="ole2.dll16">
+          <in>ifs.h</in>
+          <in>memlockbytes.c</in>
+          <in>ole2.c</in>
+        </df>
+        <df name="ole2conv.dll16">
+        </df>
+        <df name="ole2disp.dll16">
+          <in>ole2disp.c</in>
+          <in>ole2disp.h</in>
+        </df>
+        <df name="ole2nls.dll16">
+          <in>ole2nls.c</in>
+        </df>
+        <df name="ole2prox.dll16">
+        </df>
+        <df name="ole2thk.dll16">
+        </df>
+        <df name="ole32">
+          <df name="tests">
+            <in>clipboard.c</in>
+            <in>compobj.c</in>
+            <in>defaulthandler.c</in>
+            <in>dragdrop.c</in>
+            <in>errorinfo.c</in>
+            <in>hglobalstream.c</in>
+            <in>marshal.c</in>
+            <in>moniker.c</in>
+            <in>ole2.c</in>
+            <in>ole_server.c</in>
+            <in>propvariant.c</in>
+            <in>stg_prop.c</in>
+            <in>storage32.c</in>
+            <in>usrmarshal.c</in>
+          </df>
+          <in>antimoniker.c</in>
+          <in>bindctx.c</in>
+          <in>classmoniker.c</in>
+          <in>clipboard.c</in>
+          <in>comcat.c</in>
+          <in>compobj.c</in>
+          <in>compobj_private.h</in>
+          <in>compositemoniker.c</in>
+          <in>datacache.c</in>
+          <in>defaulthandler.c</in>
+          <in>dictionary.c</in>
+          <in>dictionary.h</in>
+          <in>enumx.c</in>
+          <in>enumx.h</in>
+          <in>errorinfo.c</in>
+          <in>filelockbytes.c</in>
+          <in>filemoniker.c</in>
+          <in>ftmarshal.c</in>
+          <in>git.c</in>
+          <in>hglobalstream.c</in>
+          <in>ifs.c</in>
+          <in>itemmoniker.c</in>
+          <in>marshal.c</in>
+          <in>memlockbytes.c</in>
+          <in>moniker.c</in>
+          <in>moniker.h</in>
+          <in>ole2.c</in>
+          <in>ole2impl.c</in>
+          <in>ole2stubs.c</in>
+          <in>ole32_main.c</in>
+          <in>oleobj.c</in>
+          <in>oleproxy.c</in>
+          <in>olestd.h</in>
+          <in>pointermoniker.c</in>
+          <in>rpc.c</in>
+          <in>stg_prop.c</in>
+          <in>stg_stream.c</in>
+          <in>storage32.c</in>
+          <in>storage32.h</in>
+          <in>stubmanager.c</in>
+          <in>usrmarshal.c</in>
+        </df>
+        <df name="oleacc">
+          <df name="tests">
+            <in>main.c</in>
+          </df>
+          <in>main.c</in>
+        </df>
+        <df name="oleaut32">
+          <df name="tests">
+            <in>dispatch.c</in>
+            <in>olefont.c</in>
+            <in>olepicture.c</in>
+            <in>safearray.c</in>
+            <in>tmarshal.c</in>
+            <in>tmarshal_dispids.h</in>
+            <in>typelib.c</in>
+            <in>usrmarshal.c</in>
+            <in>varformat.c</in>
+            <in>vartest.c</in>
+            <in>vartype.c</in>
+          </df>
+          <in>connpt.c</in>
+          <in>connpt.h</in>
+          <in>dispatch.c</in>
+          <in>hash.c</in>
+          <in>oleaut.c</in>
+          <in>olefont.c</in>
+          <in>olepicture.c</in>
+          <in>olepropframe.c</in>
+          <in>recinfo.c</in>
+          <in>resource.h</in>
+          <in>safearray.c</in>
+          <in>tmarshal.c</in>
+          <in>typelib.c</in>
+          <in>typelib.h</in>
+          <in>usrmarshal.c</in>
+          <in>varformat.c</in>
+          <in>variant.c</in>
+          <in>variant.h</in>
+          <in>vartype.c</in>
+        </df>
+        <df name="olecli.dll16">
+          <in>olecli.c</in>
+          <in>olecli.h</in>
+        </df>
+        <df name="olecli32">
+          <in>olecli.h</in>
+          <in>olecli_main.c</in>
+        </df>
+        <df name="oledb32">
+          <df name="tests">
+            <in>convert.c</in>
+            <in>database.c</in>
+            <in>marshal.c</in>
+          </df>
+          <in>convert.c</in>
+          <in>datainit.c</in>
+          <in>dslocator.c</in>
+          <in>errorinfo.c</in>
+          <in>main.c</in>
+          <in>oledb_private.h</in>
+          <in>rowpos.c</in>
+        </df>
+        <df name="oledlg">
+          <in>insobjdlg.c</in>
+          <in>oledlg_main.c</in>
+          <in>oledlg_private.h</in>
+          <in>pastespl.c</in>
+          <in>resource.h</in>
+        </df>
+        <df name="olepro32">
+          <in>olepro32stubs.c</in>
+        </df>
+        <df name="olesvr.dll16">
+          <in>olesvr.c</in>
+        </df>
+        <df name="olesvr32">
+          <in>olesvr_main.c</in>
+        </df>
+        <df name="olethk32">
+          <in>main.c</in>
+        </df>
+        <df name="openal32">
+          <in>openal.c</in>
+        </df>
+        <df name="opencl">
+          <in>opencl.c</in>
+        </df>
+        <df name="opengl32">
+          <df name="tests">
+            <in>opengl.c</in>
+          </df>
+          <in>opengl_ext.c</in>
+          <in>opengl_ext.h</in>
+          <in>opengl_norm.c</in>
+          <in>wgl.c</in>
+        </df>
+        <df name="pdh">
+          <df name="tests">
+            <in>pdh.c</in>
+          </df>
+          <in>pdh_main.c</in>
+        </df>
+        <df name="photometadatahandler">
+          <in>main.c</in>
+        </df>
+        <df name="pidgen">
+          <in>main.c</in>
+        </df>
+        <df name="powrprof">
+          <in>powrprof.c</in>
+        </df>
+        <df name="printui">
+          <in>printui.c</in>
+          <in>printui_private.h</in>
+        </df>
+        <df name="propsys">
+          <df name="tests">
+            <in>propstore.c</in>
+            <in>propsys.c</in>
+          </df>
+          <in>propstore.c</in>
+          <in>propsys_main.c</in>
+          <in>propsys_private.h</in>
+          <in>propvar.c</in>
+        </df>
+        <df name="psapi">
+          <df name="tests">
+            <in>psapi_main.c</in>
+          </df>
+        </df>
+        <df name="pstorec">
+          <in>pstorec.c</in>
+        </df>
+        <df name="qcap">
+          <df name="tests">
+            <in>qcap.c</in>
+          </df>
+          <in>capture.h</in>
+          <in>capturegraph.c</in>
+          <in>enummedia.c</in>
+          <in>qcap_main.c</in>
+          <in>qcap_main.h</in>
+          <in>v4l.c</in>
+          <in>vfwcapture.c</in>
+          <in>yuv.c</in>
+        </df>
+        <df name="qedit">
+          <df name="tests">
+            <in>mediadet.c</in>
+            <in>rc.h</in>
+          </df>
+          <in>main.c</in>
+          <in>mediadet.c</in>
+          <in>qedit_private.h</in>
+          <in>samplegrabber.c</in>
+        </df>
+        <df name="qmgr">
+          <df name="tests">
+            <in>enum_files.c</in>
+            <in>enum_jobs.c</in>
+            <in>file.c</in>
+            <in>job.c</in>
+            <in>qmgr.c</in>
+          </df>
+          <in>enum_files.c</in>
+          <in>enum_jobs.c</in>
+          <in>factory.c</in>
+          <in>file.c</in>
+          <in>job.c</in>
+          <in>qmgr.c</in>
+          <in>qmgr.h</in>
+          <in>qmgr_main.c</in>
+          <in>service.c</in>
+        </df>
+        <df name="qmgrprxy">
+        </df>
+        <df name="quartz">
+          <df name="tests">
+            <in>avisplitter.c</in>
+            <in>dsoundrender.c</in>
+            <in>filtergraph.c</in>
+            <in>filtermapper.c</in>
+            <in>memallocator.c</in>
+            <in>misc.c</in>
+            <in>referenceclock.c</in>
+            <in>videorenderer.c</in>
+          </df>
+          <in>acmwrapper.c</in>
+          <in>avidec.c</in>
+          <in>avisplit.c</in>
+          <in>dsoundrender.c</in>
+          <in>enumfilters.c</in>
+          <in>enummedia.c</in>
+          <in>enummoniker.c</in>
+          <in>enumregfilters.c</in>
+          <in>filesource.c</in>
+          <in>filtergraph.c</in>
+          <in>filtermapper.c</in>
+          <in>main.c</in>
+          <in>memallocator.c</in>
+          <in>mpegsplit.c</in>
+          <in>nullrenderer.c</in>
+          <in>parser.c</in>
+          <in>parser.h</in>
+          <in>pin.c</in>
+          <in>pin.h</in>
+          <in>quartz_private.h</in>
+          <in>regsvr.c</in>
+          <in>systemclock.c</in>
+          <in>videorenderer.c</in>
+          <in>vmr9.c</in>
+          <in>waveparser.c</in>
+        </df>
+        <df name="query">
+          <in>query_main.c</in>
+        </df>
+        <df name="rasapi16.dll16">
+        </df>
+        <df name="rasapi32">
+          <df name="tests">
+            <in>rasapi.c</in>
+          </df>
+          <in>rasapi.c</in>
+        </df>
+        <df name="rasdlg">
+          <in>rasdlg_main.c</in>
+        </df>
+        <df name="regapi">
+          <in>main.c</in>
+        </df>
+        <df name="resutils">
+          <in>resutils.c</in>
+        </df>
+        <df name="riched20">
+          <df name="tests">
+            <in>editor.c</in>
+            <in>richole.c</in>
+            <in>txtsrv.c</in>
+          </df>
+          <in>caret.c</in>
+          <in>clipboard.c</in>
+          <in>context.c</in>
+          <in>editor.c</in>
+          <in>editor.h</in>
+          <in>editstr.h</in>
+          <in>list.c</in>
+          <in>paint.c</in>
+          <in>para.c</in>
+          <in>reader.c</in>
+          <in>res.h</in>
+          <in>richole.c</in>
+          <in>row.c</in>
+          <in>rtf.h</in>
+          <in>run.c</in>
+          <in>string.c</in>
+          <in>style.c</in>
+          <in>table.c</in>
+          <in>txthost.c</in>
+          <in>txtsrv.c</in>
+          <in>undo.c</in>
+          <in>wrap.c</in>
+          <in>writer.c</in>
+        </df>
+        <df name="riched32">
+          <df name="tests">
+            <in>editor.c</in>
+          </df>
+          <in>richedit.c</in>
+        </df>
+        <df name="rpcrt4">
+          <df name="tests">
+            <in>cstub.c</in>
+            <in>generated.c</in>
+            <in>ndr_marshall.c</in>
+            <in>rpc.c</in>
+            <in>rpc_async.c</in>
+            <in>rpc_protseq.c</in>
+            <in>server.c</in>
+            <in>server_defines.h</in>
+          </df>
+          <in>cproxy.c</in>
+          <in>cpsf.c</in>
+          <in>cpsf.h</in>
+          <in>cstub.c</in>
+          <in>epm_towers.h</in>
+          <in>ncastatus.h</in>
+          <in>ndr_clientserver.c</in>
+          <in>ndr_contexthandle.c</in>
+          <in>ndr_es.c</in>
+          <in>ndr_fullpointer.c</in>
+          <in>ndr_marshall.c</in>
+          <in>ndr_misc.h</in>
+          <in>ndr_ole.c</in>
+          <in>ndr_stubless.c</in>
+          <in>ndr_stubless.h</in>
+          <in>rpc_assoc.c</in>
+          <in>rpc_assoc.h</in>
+          <in>rpc_async.c</in>
+          <in>rpc_binding.c</in>
+          <in>rpc_binding.h</in>
+          <in>rpc_defs.h</in>
+          <in>rpc_epmap.c</in>
+          <in>rpc_message.c</in>
+          <in>rpc_message.h</in>
+          <in>rpc_server.c</in>
+          <in>rpc_server.h</in>
+          <in>rpc_transport.c</in>
+          <in>rpcrt4_main.c</in>
+        </df>
+        <df name="rsabase">
+        </df>
+        <df name="rsaenh">
+          <df name="tests">
+            <in>rsaenh.c</in>
+          </df>
+          <in>aes.c</in>
+          <in>des.c</in>
+          <in>handle.c</in>
+          <in>handle.h</in>
+          <in>implglue.c</in>
+          <in>implglue.h</in>
+          <in>md2.c</in>
+          <in>mpi.c</in>
+          <in>rc2.c</in>
+          <in>rc4.c</in>
+          <in>rsa.c</in>
+          <in>rsaenh.c</in>
+          <in>sha2.c</in>
+          <in>sha2.h</in>
+          <in>tomcrypt.h</in>
+        </df>
+        <df name="rstrtmgr">
+          <in>main.c</in>
+        </df>
+        <df name="rtutils">
+          <in>main.c</in>
+          <in>tracing.c</in>
+        </df>
+        <df name="samlib">
+          <in>main.c</in>
+        </df>
+        <df name="sane.ds">
+          <in>capability.c</in>
+          <in>ds_ctrl.c</in>
+          <in>ds_image.c</in>
+          <in>options.c</in>
+          <in>resource.h</in>
+          <in>sane_i.h</in>
+          <in>sane_main.c</in>
+          <in>ui.c</in>
+        </df>
+        <df name="scarddlg">
+          <in>main.c</in>
+        </df>
+        <df name="sccbase">
+          <in>main.c</in>
+        </df>
+        <df name="schannel">
+          <df name="tests">
+            <in>main.c</in>
+          </df>
+          <in>lsamode.c</in>
+          <in>schannel_main.c</in>
+          <in>usermode.c</in>
+        </df>
+        <df name="scrrun">
+          <df name="tests">
+            <in>dictionary.c</in>
+            <in>filesystem.c</in>
+          </df>
+          <in>dictionary.c</in>
+          <in>filesystem.c</in>
+          <in>scrrun.c</in>
+          <in>scrrun_private.h</in>
+        </df>
+        <df name="scsiport.sys">
+          <in>scsiport.c</in>
+        </df>
+        <df name="secur32">
+          <df name="tests">
+            <in>main.c</in>
+            <in>negotiate.c</in>
+            <in>ntlm.c</in>
+            <in>schannel.c</in>
+            <in>secur32.c</in>
+          </df>
+          <in>base64_codec.c</in>
+          <in>dispatcher.c</in>
+          <in>hmac_md5.c</in>
+          <in>hmac_md5.h</in>
+          <in>lsa.c</in>
+          <in>negotiate.c</in>
+          <in>ntlm.c</in>
+          <in>schannel.c</in>
+          <in>schannel_gnutls.c</in>
+          <in>schannel_macosx.c</in>
+          <in>secur32.c</in>
+          <in>secur32_priv.h</in>
+          <in>thunks.c</in>
+          <in>thunks.h</in>
+          <in>util.c</in>
+          <in>wrapper.c</in>
+        </df>
+        <df name="security">
+        </df>
+        <df name="sensapi">
+          <in>sensapi.c</in>
+        </df>
+        <df name="serialui">
+          <df name="tests">
+            <in>confdlg.c</in>
+          </df>
+          <in>confdlg.c</in>
+          <in>serialui.h</in>
+        </df>
+        <df name="setupapi">
+          <df name="tests">
+            <in>devinst.c</in>
+            <in>diskspace.c</in>
+            <in>install.c</in>
+            <in>misc.c</in>
+            <in>parser.c</in>
+            <in>query.c</in>
+            <in>setupcab.c</in>
+            <in>stringtable.c</in>
+          </df>
+          <in>devinst.c</in>
+          <in>dialog.c</in>
+          <in>dirid.c</in>
+          <in>diskspace.c</in>
+          <in>fakedll.c</in>
+          <in>install.c</in>
+          <in>misc.c</in>
+          <in>parser.c</in>
+          <in>query.c</in>
+          <in>queue.c</in>
+          <in>setupapi_private.h</in>
+          <in>setupcab.c</in>
+          <in>stringtable.c</in>
+          <in>stubs.c</in>
+        </df>
+        <df name="setupx.dll16">
+          <in>devinst16.c</in>
+          <in>infparse.c</in>
+          <in>setupx16.h</in>
+          <in>setupx_main.c</in>
+          <in>virtcopy.c</in>
+        </df>
+        <df name="sfc">
+          <in>sfc_main.c</in>
+        </df>
+        <df name="sfc_os">
+          <in>sfc_os.c</in>
+        </df>
+        <df name="shdoclc">
+          <in>shdoclc.h</in>
+        </df>
+        <df name="shdocvw">
+          <df name="tests">
+            <in>shdocvw.c</in>
+            <in>shortcut.c</in>
+          </df>
+          <in>shdocvw.h</in>
+          <in>shdocvw_main.c</in>
+          <in>shlinstobj.c</in>
+        </df>
+        <df name="shell.dll16">
+          <in>shell.c</in>
+        </df>
+        <df name="shell32">
+          <df name="tests">
+            <in>appbar.c</in>
+            <in>assoc.c</in>
+            <in>autocomplete.c</in>
+            <in>brsfolder.c</in>
+            <in>ebrowser.c</in>
+            <in>generated.c</in>
+            <in>msg.h</in>
+            <in>progman_dde.c</in>
+            <in>recyclebin.c</in>
+            <in>shell32_test.h</in>
+            <in>shelldispatch.c</in>
+            <in>shelllink.c</in>
+            <in>shellole.c</in>
+            <in>shellpath.c</in>
+            <in>shfldr_special.c</in>
+            <in>shlexec.c</in>
+            <in>shlfileop.c</in>
+            <in>shlfolder.c</in>
+            <in>shlview.c</in>
+            <in>string.c</in>
+            <in>systray.c</in>
+          </df>
+          <in>appbar.c</in>
+          <in>assoc.c</in>
+          <in>autocomplete.c</in>
+          <in>brsfolder.c</in>
+          <in>changenotify.c</in>
+          <in>classes.c</in>
+          <in>clipboard.c</in>
+          <in>control.c</in>
+          <in>cpanel.h</in>
+          <in>cpanelfolder.c</in>
+          <in>dataobject.c</in>
+          <in>dde.c</in>
+          <in>debughlp.c</in>
+          <in>debughlp.h</in>
+          <in>dialogs.c</in>
+          <in>dragdrophelper.c</in>
+          <in>ebrowser.c</in>
+          <in>enumidlist.c</in>
+          <in>folders.c</in>
+          <in>iconcache.c</in>
+          <in>pidl.c</in>
+          <in>pidl.h</in>
+          <in>recyclebin.c</in>
+          <in>shell32_main.c</in>
+          <in>shell32_main.h</in>
+          <in>shelldispatch.c</in>
+          <in>shellfolder.h</in>
+          <in>shellitem.c</in>
+          <in>shelllink.c</in>
+          <in>shellole.c</in>
+          <in>shellord.c</in>
+          <in>shellpath.c</in>
+          <in>shellreg.c</in>
+          <in>shellstring.c</in>
+          <in>shfldr.h</in>
+          <in>shfldr_desktop.c</in>
+          <in>shfldr_fs.c</in>
+          <in>shfldr_mycomp.c</in>
+          <in>shfldr_netplaces.c</in>
+          <in>shfldr_printers.c</in>
+          <in>shfldr_unixfs.c</in>
+          <in>shlexec.c</in>
+          <in>shlfileop.c</in>
+          <in>shlfolder.c</in>
+          <in>shlfsbind.c</in>
+          <in>shlmenu.c</in>
+          <in>shlview.c</in>
+          <in>shlview_cmenu.c</in>
+          <in>shpolicy.c</in>
+          <in>shresdef.h</in>
+          <in>systray.c</in>
+          <in>trash.c</in>
+          <in>undocshell.h</in>
+          <in>version.h</in>
+          <in>xdg.c</in>
+          <in>xdg.h</in>
+        </df>
+        <df name="shfolder">
+        </df>
+        <df name="shlwapi">
+          <df name="tests">
+            <in>assoc.c</in>
+            <in>clist.c</in>
+            <in>clsid.c</in>
+            <in>generated.c</in>
+            <in>istream.c</in>
+            <in>ordinal.c</in>
+            <in>path.c</in>
+            <in>shreg.c</in>
+            <in>string.c</in>
+            <in>thread.c</in>
+            <in>url.c</in>
+          </df>
+          <in>assoc.c</in>
+          <in>clist.c</in>
+          <in>istream.c</in>
+          <in>msgbox.c</in>
+          <in>ordinal.c</in>
+          <in>path.c</in>
+          <in>reg.c</in>
+          <in>regstream.c</in>
+          <in>resource.h</in>
+          <in>shlwapi_main.c</in>
+          <in>stopwatch.c</in>
+          <in>string.c</in>
+          <in>thread.c</in>
+          <in>url.c</in>
+          <in>wsprintf.c</in>
+        </df>
+        <df name="slbcsp">
+          <in>main.c</in>
+        </df>
+        <df name="slc">
+          <in>slc.c</in>
+        </df>
+        <df name="snmpapi">
+          <df name="tests">
+            <in>util.c</in>
+          </df>
+          <in>main.c</in>
+        </df>
+        <df name="softpub">
+        </df>
+        <df name="sound.drv16">
+          <in>sound.c</in>
+        </df>
+        <df name="spoolss">
+          <df name="tests">
+            <in>spoolss.c</in>
+          </df>
+          <in>router.c</in>
+          <in>spoolss.h</in>
+          <in>spoolss_main.c</in>
+        </df>
+        <df name="stdole2.tlb">
+        </df>
+        <df name="stdole32.tlb">
+        </df>
+        <df name="sti">
+          <df name="tests">
+            <in>sti.c</in>
+          </df>
+          <in>sti.c</in>
+          <in>sti_main.c</in>
+        </df>
+        <df name="storage.dll16">
+          <in>ifs.h</in>
+          <in>storage.c</in>
+        </df>
+        <df name="stress.dll16">
+          <in>stress.c</in>
+        </df>
+        <df name="strmbase">
+          <in>audio.c</in>
+          <in>dispatch.c</in>
+          <in>dllfunc.c</in>
+          <in>enumpins.c</in>
+          <in>filter.c</in>
+          <in>mediatype.c</in>
+          <in>outputqueue.c</in>
+          <in>pin.c</in>
+          <in>pospass.c</in>
+          <in>qualitycontrol.c</in>
+          <in>renderer.c</in>
+          <in>seeking.c</in>
+          <in>strmbase_private.h</in>
+          <in>transform.c</in>
+          <in>video.c</in>
+          <in>window.c</in>
+        </df>
+        <df name="strmiids">
+          <in>strmiids.c</in>
+        </df>
+        <df name="svrapi">
+          <in>svrapi_main.c</in>
+        </df>
+        <df name="sxs">
+          <df name="tests">
+            <in>cache.c</in>
+            <in>name.c</in>
+          </df>
+          <in>cache.c</in>
+          <in>name.c</in>
+          <in>sxs.c</in>
+          <in>sxs_private.h</in>
+        </df>
+        <df name="system.drv16">
+          <in>system.c</in>
+        </df>
+        <df name="t2embed">
+          <in>main.c</in>
+        </df>
+        <df name="tapi32">
+          <in>assisted.c</in>
+          <in>line.c</in>
+          <in>phone.c</in>
+        </df>
+        <df name="toolhelp.dll16">
+          <in>toolhelp.c</in>
+          <in>toolhelp.h</in>
+        </df>
+        <df name="traffic">
+          <in>traffic_main.c</in>
+        </df>
+        <df name="twain.dll16">
+          <in>twain.c</in>
+        </df>
+        <df name="twain_32">
+          <df name="tests">
+            <in>dsm.c</in>
+          </df>
+          <in>dsm_ctrl.c</in>
+          <in>twain32_main.c</in>
+          <in>twain_i.h</in>
+        </df>
+        <df name="typelib.dll16">
+          <in>typelib.c</in>
+        </df>
+        <df name="unicows">
+        </df>
+        <df name="updspapi">
+          <in>main.c</in>
+        </df>
+        <df name="url">
+          <in>url_main.c</in>
+        </df>
+        <df name="urlmon">
+          <df name="tests">
+            <in>generated.c</in>
+            <in>misc.c</in>
+            <in>protocol.c</in>
+            <in>sec_mgr.c</in>
+            <in>stream.c</in>
+            <in>uri.c</in>
+            <in>url.c</in>
+          </df>
+          <in>axinstall.c</in>
+          <in>bindctx.c</in>
+          <in>binding.c</in>
+          <in>bindprot.c</in>
+          <in>download.c</in>
+          <in>file.c</in>
+          <in>format.c</in>
+          <in>ftp.c</in>
+          <in>gopher.c</in>
+          <in>http.c</in>
+          <in>internet.c</in>
+          <in>mimefilter.c</in>
+          <in>mk.c</in>
+          <in>protocol.c</in>
+          <in>resource.h</in>
+          <in>sec_mgr.c</in>
+          <in>session.c</in>
+          <in>umon.c</in>
+          <in>umstream.c</in>
+          <in>uri.c</in>
+          <in>urlmon_main.c</in>
+          <in>urlmon_main.h</in>
+          <in>usrmarshal.c</in>
+        </df>
+        <df name="usbd.sys">
+          <in>usbd.c</in>
+        </df>
+        <df name="user.exe16">
+          <in>bidi.c</in>
+          <in>comm.c</in>
+          <in>dialog.c</in>
+          <in>hook.c</in>
+          <in>message.c</in>
+          <in>network.c</in>
+          <in>user.c</in>
+          <in>user_private.h</in>
+          <in>window.c</in>
+        </df>
+        <df name="user32">
+          <df name="resources">
+          </df>
+          <df name="tests">
+            <in>broadcast.c</in>
+            <in>class.c</in>
+            <in>clipboard.c</in>
+            <in>combo.c</in>
+            <in>cursoricon.c</in>
+            <in>dce.c</in>
+            <in>dde.c</in>
+            <in>dialog.c</in>
+            <in>edit.c</in>
+            <in>generated.c</in>
+            <in>input.c</in>
+            <in>listbox.c</in>
+            <in>menu.c</in>
+            <in>monitor.c</in>
+            <in>msg.c</in>
+            <in>resource.c</in>
+            <in>scroll.c</in>
+            <in>static.c</in>
+            <in>sysparams.c</in>
+            <in>text.c</in>
+            <in>uitools.c</in>
+            <in>win.c</in>
+            <in>winstation.c</in>
+            <in>wsprintf.c</in>
+          </df>
+          <in>button.c</in>
+          <in>caret.c</in>
+          <in>class.c</in>
+          <in>clipboard.c</in>
+          <in>combo.c</in>
+          <in>controls.h</in>
+          <in>cursoricon.c</in>
+          <in>dde_client.c</in>
+          <in>dde_misc.c</in>
+          <in>dde_private.h</in>
+          <in>dde_server.c</in>
+          <in>defdlg.c</in>
+          <in>defwnd.c</in>
+          <in>desktop.c</in>
+          <in>dialog.c</in>
+          <in>driver.c</in>
+          <in>edit.c</in>
+          <in>exticon.c</in>
+          <in>focus.c</in>
+          <in>hook.c</in>
+          <in>icontitle.c</in>
+          <in>input.c</in>
+          <in>listbox.c</in>
+          <in>lstr.c</in>
+          <in>mdi.c</in>
+          <in>menu.c</in>
+          <in>message.c</in>
+          <in>misc.c</in>
+          <in>msgbox.c</in>
+          <in>nonclient.c</in>
+          <in>painting.c</in>
+          <in>property.c</in>
+          <in>resource.c</in>
+          <in>resources.h</in>
+          <in>scroll.c</in>
+          <in>spy.c</in>
+          <in>static.c</in>
+          <in>sysparams.c</in>
+          <in>text.c</in>
+          <in>uitools.c</in>
+          <in>user_main.c</in>
+          <in>user_private.h</in>
+          <in>win.c</in>
+          <in>win.h</in>
+          <in>winhelp.c</in>
+          <in>winpos.c</in>
+          <in>winproc.c</in>
+          <in>winstation.c</in>
+          <in>wsprintf.c</in>
+        </df>
+        <df name="userenv">
+          <df name="tests">
+            <in>userenv.c</in>
+          </df>
+          <in>userenv_main.c</in>
+        </df>
+        <df name="usp10">
+          <df name="tests">
+            <in>usp10.c</in>
+          </df>
+          <in>bidi.c</in>
+          <in>breaking.c</in>
+          <in>indic.c</in>
+          <in>indicsyllable.c</in>
+          <in>linebreak.c</in>
+          <in>mirror.c</in>
+          <in>opentype.c</in>
+          <in>shape.c</in>
+          <in>shaping.c</in>
+          <in>usp10.c</in>
+          <in>usp10_internal.h</in>
+        </df>
+        <df name="uuid">
+          <in>uuid.c</in>
+        </df>
+        <df name="uxtheme">
+          <df name="tests">
+            <in>system.c</in>
+          </df>
+          <in>buffer.c</in>
+          <in>draw.c</in>
+          <in>main.c</in>
+          <in>metric.c</in>
+          <in>msstyles.c</in>
+          <in>msstyles.h</in>
+          <in>property.c</in>
+          <in>stylemap.c</in>
+          <in>system.c</in>
+          <in>uxini.c</in>
+          <in>uxthemedll.h</in>
+        </df>
+        <df name="vbscript">
+          <df name="tests">
+            <in>createobj.c</in>
+            <in>run.c</in>
+            <in>vbscript.c</in>
+            <in>vbscript_defs.h</in>
+          </df>
+          <in>compile.c</in>
+          <in>error.c</in>
+          <in>global.c</in>
+          <in>interp.c</in>
+          <in>lex.c</in>
+          <in>parse.h</in>
+          <in>regexp.c</in>
+          <in>regexp.h</in>
+          <in>vbdisp.c</in>
+          <in>vbregexp.c</in>
+          <in>vbscript.c</in>
+          <in>vbscript.h</in>
+          <in>vbscript_defs.h</in>
+          <in>vbscript_main.c</in>
+        </df>
+        <df name="vcomp">
+          <in>main.c</in>
+        </df>
+        <df name="vcomp100">
+          <in>main.c</in>
+        </df>
+        <df name="vcomp90">
+          <in>main.c</in>
+        </df>
+        <df name="vdhcp.vxd">
+          <in>vdhcp.c</in>
+        </df>
+        <df name="vdmdbg">
+          <in>vdmdbg.c</in>
+        </df>
+        <df name="ver.dll16">
+          <in>version.c</in>
+        </df>
+        <df name="version">
+          <df name="tests">
+            <in>info.c</in>
+            <in>install.c</in>
+          </df>
+          <in>version.c</in>
+        </df>
+        <df name="vmm.vxd">
+          <in>vmm.c</in>
+        </df>
+        <df name="vnbt.vxd">
+          <in>vnbt.c</in>
+        </df>
+        <df name="vnetbios.vxd">
+          <in>vnetbios.c</in>
+        </df>
+        <df name="vtdapi.vxd">
+          <in>vtdapi.c</in>
+        </df>
+        <df name="vwin32.vxd">
+          <in>vwin32.c</in>
+        </df>
+        <df name="w32skrnl">
+          <in>w32skernel.c</in>
+        </df>
+        <df name="w32sys.dll16">
+          <in>w32sys.c</in>
+        </df>
+        <df name="wbemdisp">
+          <in>locator.c</in>
+          <in>main.c</in>
+          <in>wbemdisp_private.h</in>
+        </df>
+        <df name="wbemprox">
+          <df name="tests">
+            <in>query.c</in>
+            <in>services.c</in>
+          </df>
+          <in>builtin.c</in>
+          <in>class.c</in>
+          <in>main.c</in>
+          <in>process.c</in>
+          <in>qualifier.c</in>
+          <in>query.c</in>
+          <in>reg.c</in>
+          <in>service.c</in>
+          <in>services.c</in>
+          <in>table.c</in>
+          <in>wbemlocator.c</in>
+          <in>wbemprox_private.h</in>
+        </df>
+        <df name="webservices">
+          <in>main.c</in>
+        </df>
+        <df name="wer">
+          <df name="tests">
+            <in>main.c</in>
+          </df>
+          <in>main.c</in>
+        </df>
+        <df name="wevtapi">
+          <in>main.c</in>
+        </df>
+        <df name="wiaservc">
+          <in>factory.c</in>
+          <in>service.c</in>
+          <in>wiadevmgr.c</in>
+          <in>wiaservc_main.c</in>
+          <in>wiaservc_private.h</in>
+        </df>
+        <df name="win32s16.dll16">
+          <in>win32s16.c</in>
+        </df>
+        <df name="win87em.dll16">
+          <in>win87em.c</in>
+        </df>
+        <df name="winaspi.dll16">
+          <in>aspi.h</in>
+          <in>winaspi.c</in>
+        </df>
+        <df name="windebug.dll16">
+          <in>windebug.c</in>
+        </df>
+        <df name="windowscodecs">
+          <df name="tests">
+            <in>bitmap.c</in>
+            <in>bmpformat.c</in>
+            <in>converter.c</in>
+            <in>gifformat.c</in>
+            <in>icoformat.c</in>
+            <in>info.c</in>
+            <in>metadata.c</in>
+            <in>palette.c</in>
+            <in>pngformat.c</in>
+            <in>propertybag.c</in>
+            <in>stream.c</in>
+            <in>tiffformat.c</in>
+          </df>
+          <in>bitmap.c</in>
+          <in>bmpdecode.c</in>
+          <in>bmpencode.c</in>
+          <in>clipper.c</in>
+          <in>clsfactory.c</in>
+          <in>colorcontext.c</in>
+          <in>colortransform.c</in>
+          <in>converter.c</in>
+          <in>fliprotate.c</in>
+          <in>gifformat.c</in>
+          <in>icnsformat.c</in>
+          <in>icoformat.c</in>
+          <in>imgfactory.c</in>
+          <in>info.c</in>
+          <in>jpegformat.c</in>
+          <in>main.c</in>
+          <in>metadatahandler.c</in>
+          <in>palette.c</in>
+          <in>pngformat.c</in>
+          <in>propertybag.c</in>
+          <in>proxy.c</in>
+          <in>regsvr.c</in>
+          <in>scaler.c</in>
+          <in>stream.c</in>
+          <in>tgaformat.c</in>
+          <in>tiffformat.c</in>
+          <in>ungif.c</in>
+          <in>ungif.h</in>
+          <in>wincodecs_private.h</in>
+        </df>
+        <df name="windowscodecsext">
+          <df name="tests">
+            <in>transform.c</in>
+          </df>
+          <in>main.c</in>
+        </df>
+        <df name="winealsa.drv">
+          <in>midi.c</in>
+          <in>mmdevdrv.c</in>
+        </df>
+        <df name="winecoreaudio.drv">
+          <in>audiounit.c</in>
+          <in>coreaudio.c</in>
+          <in>coreaudio.h</in>
+          <in>coremidi.c</in>
+          <in>coremidi.h</in>
+          <in>midi.c</in>
+          <in>mmdevdrv.c</in>
+        </df>
+        <df name="winecrt0">
+          <in>crt0_private.h</in>
+          <in>delay_load.c</in>
+          <in>dll_entry.c</in>
+          <in>dll_main.c</in>
+          <in>drv_entry.c</in>
+          <in>exception.c</in>
+          <in>exe16_entry.c</in>
+          <in>exe_entry.c</in>
+          <in>exe_main.c</in>
+          <in>exe_wentry.c</in>
+          <in>exe_wmain.c</in>
+          <in>init.c</in>
+          <in>register.c</in>
+          <in>stub.c</in>
+        </df>
+        <df name="wined3d">
+          <in>arb_program_shader.c</in>
+          <in>ati_fragment_shader.c</in>
+          <in>buffer.c</in>
+          <in>context.c</in>
+          <in>cs.c</in>
+          <in>device.c</in>
+          <in>directx.c</in>
+          <in>drawprim.c</in>
+          <in>gl_compat.c</in>
+          <in>glsl_shader.c</in>
+          <in>nvidia_texture_shader.c</in>
+          <in>palette.c</in>
+          <in>query.c</in>
+          <in>resource.c</in>
+          <in>sampler.c</in>
+          <in>shader.c</in>
+          <in>shader_sm1.c</in>
+          <in>shader_sm4.c</in>
+          <in>state.c</in>
+          <in>stateblock.c</in>
+          <in>surface.c</in>
+          <in>swapchain.c</in>
+          <in>texture.c</in>
+          <in>utils.c</in>
+          <in>vertexdeclaration.c</in>
+          <in>view.c</in>
+          <in>volume.c</in>
+          <in>wined3d_gl.h</in>
+          <in>wined3d_main.c</in>
+          <in>wined3d_private.h</in>
+        </df>
+        <df name="winegstreamer">
+          <in>glibthread.c</in>
+          <in>gst_guids.h</in>
+          <in>gst_private.h</in>
+          <in>gstdemux.c</in>
+          <in>gsttffilter.c</in>
+          <in>main.c</in>
+        </df>
+        <df name="winejoystick.drv">
+          <in>joystick.c</in>
+        </df>
+        <df name="winemac.drv">
+          <in>clipboard.c</in>
+          <in>cocoa_app.h</in>
+          <in>cocoa_app.m</in>
+          <in>cocoa_clipboard.m</in>
+          <in>cocoa_display.m</in>
+          <in>cocoa_event.h</in>
+          <in>cocoa_event.m</in>
+          <in>cocoa_main.m</in>
+          <in>cocoa_opengl.h</in>
+          <in>cocoa_opengl.m</in>
+          <in>cocoa_status_item.m</in>
+          <in>cocoa_window.h</in>
+          <in>cocoa_window.m</in>
+          <in>display.c</in>
+          <in>dragdrop.c</in>
+          <in>event.c</in>
+          <in>gdi.c</in>
+          <in>image.c</in>
+          <in>ime.c</in>
+          <in>keyboard.c</in>
+          <in>macdrv.h</in>
+          <in>macdrv_cocoa.h</in>
+          <in>macdrv_main.c</in>
+          <in>mouse.c</in>
+          <in>opengl.c</in>
+          <in>surface.c</in>
+          <in>systray.c</in>
+          <in>window.c</in>
+        </df>
+        <df name="winemapi">
+          <in>main.c</in>
+          <in>sendmail.c</in>
+        </df>
+        <df name="winemp3.acm">
+          <in>mpegl3.c</in>
+        </df>
+        <df name="wineoss.drv">
+          <in>midi.c</in>
+          <in>midipatch.c</in>
+          <in>mmaux.c</in>
+          <in>mmdevdrv.c</in>
+        </df>
+        <df name="wineps.drv">
+          <df name="data">
+            <in>AvantGarde_Book.c</in>
+            <in>AvantGarde_BookOblique.c</in>
+            <in>AvantGarde_Demi.c</in>
+            <in>AvantGarde_DemiOblique.c</in>
+            <in>Bookman_Demi.c</in>
+            <in>Bookman_DemiItalic.c</in>
+            <in>Bookman_Light.c</in>
+            <in>Bookman_LightItalic.c</in>
+            <in>Courier.c</in>
+            <in>Courier_Bold.c</in>
+            <in>Courier_BoldOblique.c</in>
+            <in>Courier_Oblique.c</in>
+            <in>Helvetica.c</in>
+            <in>Helvetica_Bold.c</in>
+            <in>Helvetica_BoldOblique.c</in>
+            <in>Helvetica_Narrow.c</in>
+            <in>Helvetica_Narrow_Bold.c</in>
+            <in>Helvetica_Narrow_BoldOblique.c</in>
+            <in>Helvetica_Narrow_Oblique.c</in>
+            <in>Helvetica_Oblique.c</in>
+            <in>NewCenturySchlbk_Bold.c</in>
+            <in>NewCenturySchlbk_BoldItalic.c</in>
+            <in>NewCenturySchlbk_Italic.c</in>
+            <in>NewCenturySchlbk_Roman.c</in>
+            <in>Palatino_Bold.c</in>
+            <in>Palatino_BoldItalic.c</in>
+            <in>Palatino_Italic.c</in>
+            <in>Palatino_Roman.c</in>
+            <in>Symbol.c</in>
+            <in>Times_Bold.c</in>
+            <in>Times_BoldItalic.c</in>
+            <in>Times_Italic.c</in>
+            <in>Times_Roman.c</in>
+            <in>ZapfChancery_MediumItalic.c</in>
+            <in>ZapfDingbats.c</in>
+            <in>agl.c</in>
+            <in>agl.h</in>
+          </df>
+          <in>afm.c</in>
+          <in>afm2c.c</in>
+          <in>bitblt.c</in>
+          <in>bitmap.c</in>
+          <in>brush.c</in>
+          <in>builtin.c</in>
+          <in>clipping.c</in>
+          <in>color.c</in>
+          <in>download.c</in>
+          <in>driver.c</in>
+          <in>encode.c</in>
+          <in>escape.c</in>
+          <in>font.c</in>
+          <in>glyphlist.c</in>
+          <in>graphics.c</in>
+          <in>init.c</in>
+          <in>mkagl.c</in>
+          <in>pen.c</in>
+          <in>ppd.c</in>
+          <in>ps.c</in>
+          <in>psdlg.h</in>
+          <in>psdrv.h</in>
+          <in>text.c</in>
+          <in>type1.c</in>
+          <in>type1afm.c</in>
+          <in>type42.c</in>
+        </df>
+        <df name="wineps16.drv16">
+          <in>driver.c</in>
+        </df>
+        <df name="wineqtdecoder">
+          <in>main.c</in>
+          <in>qtdatahandler.c</in>
+          <in>qtprivate.h</in>
+          <in>qtsplitter.c</in>
+          <in>qtutils.c</in>
+          <in>qtvdecoder.c</in>
+        </df>
+        <df name="winex11.drv">
+          <in>bitblt.c</in>
+          <in>brush.c</in>
+          <in>clipboard.c</in>
+          <in>desktop.c</in>
+          <in>event.c</in>
+          <in>graphics.c</in>
+          <in>ime.c</in>
+          <in>init.c</in>
+          <in>keyboard.c</in>
+          <in>mouse.c</in>
+          <in>mwm.h</in>
+          <in>opengl.c</in>
+          <in>palette.c</in>
+          <in>pen.c</in>
+          <in>settings.c</in>
+          <in>systray.c</in>
+          <in>window.c</in>
+          <in>wintab.c</in>
+          <in>x11drv.h</in>
+          <in>x11drv_main.c</in>
+          <in>xcomposite.h</in>
+          <in>xdnd.c</in>
+          <in>xim.c</in>
+          <in>xinerama.c</in>
+          <in>xrandr.c</in>
+          <in>xrender.c</in>
+          <in>xvidmode.c</in>
+        </df>
+        <df name="wing.dll16">
+          <in>wing.c</in>
+        </df>
+        <df name="wing32">
+          <in>wing32.c</in>
+        </df>
+        <df name="winhttp">
+          <df name="tests">
+            <in>notification.c</in>
+            <in>url.c</in>
+            <in>winhttp.c</in>
+          </df>
+          <in>cookie.c</in>
+          <in>handle.c</in>
+          <in>main.c</in>
+          <in>net.c</in>
+          <in>request.c</in>
+          <in>session.c</in>
+          <in>url.c</in>
+          <in>winhttp_private.h</in>
+        </df>
+        <df name="wininet">
+          <df name="tests">
+            <in>ftp.c</in>
+            <in>generated.c</in>
+            <in>http.c</in>
+            <in>internet.c</in>
+            <in>url.c</in>
+            <in>urlcache.c</in>
+            <in>wininet_test.h</in>
+          </df>
+          <in>cookie.c</in>
+          <in>dialogs.c</in>
+          <in>ftp.c</in>
+          <in>gopher.c</in>
+          <in>http.c</in>
+          <in>internet.c</in>
+          <in>internet.h</in>
+          <in>netconnection.c</in>
+          <in>resource.h</in>
+          <in>urlcache.c</in>
+          <in>utility.c</in>
+          <in>wininet_main.c</in>
+        </df>
+        <df name="winmm">
+          <df name="tests">
+            <in>capture.c</in>
+            <in>generated.c</in>
+            <in>mci.c</in>
+            <in>mcicda.c</in>
+            <in>midi.c</in>
+            <in>mixer.c</in>
+            <in>mmio.c</in>
+            <in>timer.c</in>
+            <in>wave.c</in>
+            <in>winmm_test.h</in>
+          </df>
+          <in>driver.c</in>
+          <in>joystick.c</in>
+          <in>lolvldrv.c</in>
+          <in>mci.c</in>
+          <in>mmio.c</in>
+          <in>playsound.c</in>
+          <in>time.c</in>
+          <in>waveform.c</in>
+          <in>winemm.h</in>
+          <in>winmm.c</in>
+        </df>
+        <df name="winnls.dll16">
+          <in>winnls.c</in>
+        </df>
+        <df name="winnls32">
+          <in>winnls.c</in>
+        </df>
+        <df name="winscard">
+          <in>winscard.c</in>
+        </df>
+        <df name="winsock.dll16">
+          <in>socket.c</in>
+          <in>winsock16.h</in>
+        </df>
+        <df name="winspool.drv">
+          <df name="tests">
+            <in>info.c</in>
+          </df>
+          <in>info.c</in>
+          <in>wspool.c</in>
+          <in>wspool.h</in>
+        </df>
+        <df name="winsta">
+          <in>main.c</in>
+        </df>
+        <df name="wintab.dll16">
+          <in>wintab.c</in>
+        </df>
+        <df name="wintab32">
+          <df name="tests">
+            <in>context.c</in>
+          </df>
+          <in>context.c</in>
+          <in>manager.c</in>
+          <in>wintab32.c</in>
+          <in>wintab_internal.h</in>
+        </df>
+        <df name="wintrust">
+          <df name="tests">
+            <in>asn.c</in>
+            <in>crypt.c</in>
+            <in>register.c</in>
+            <in>softpub.c</in>
+          </df>
+          <in>asn.c</in>
+          <in>crypt.c</in>
+          <in>register.c</in>
+          <in>softpub.c</in>
+          <in>wintrust_main.c</in>
+          <in>wintrust_priv.h</in>
+        </df>
+        <df name="wlanapi">
+          <in>main.c</in>
+        </df>
+        <df name="wldap32">
+          <df name="tests">
+            <in>parse.c</in>
+          </df>
+          <in>add.c</in>
+          <in>ber.c</in>
+          <in>bind.c</in>
+          <in>compare.c</in>
+          <in>control.c</in>
+          <in>delete.c</in>
+          <in>dn.c</in>
+          <in>error.c</in>
+          <in>extended.c</in>
+          <in>init.c</in>
+          <in>main.c</in>
+          <in>misc.c</in>
+          <in>modify.c</in>
+          <in>modrdn.c</in>
+          <in>option.c</in>
+          <in>page.c</in>
+          <in>parse.c</in>
+          <in>rename.c</in>
+          <in>search.c</in>
+          <in>value.c</in>
+          <in>winldap_private.h</in>
+          <in>wldap32.h</in>
+        </df>
+        <df name="wmi">
+        </df>
+        <df name="wmiutils">
+          <df name="tests">
+            <in>path.c</in>
+          </df>
+          <in>main.c</in>
+          <in>path.c</in>
+          <in>statuscode.c</in>
+          <in>wmiutils_private.h</in>
+        </df>
+        <df name="wmvcore">
+          <in>wmvcore_main.c</in>
+        </df>
+        <df name="wnaspi32">
+          <in>aspi.c</in>
+          <in>aspi.h</in>
+          <in>winaspi32.c</in>
+          <in>winescsi.h</in>
+        </df>
+        <df name="wow32">
+          <in>wow_main.c</in>
+        </df>
+        <df name="ws2_32">
+          <df name="tests">
+            <in>protocol.c</in>
+            <in>sock.c</in>
+          </df>
+          <in>async.c</in>
+          <in>socket.c</in>
+        </df>
+        <df name="wshom.ocx">
+          <df name="tests">
+            <in>wshom.c</in>
+          </df>
+          <in>shell.c</in>
+          <in>wshom_main.c</in>
+          <in>wshom_private.h</in>
+        </df>
+        <df name="wsnmp32">
+          <df name="tests">
+            <in>wsnmp.c</in>
+          </df>
+          <in>wsnmp32.c</in>
+        </df>
+        <df name="wsock32">
+          <in>protocol.c</in>
+          <in>service.c</in>
+          <in>socket.c</in>
+          <in>wscontrol.h</in>
+        </df>
+        <df name="wtsapi32">
+          <in>wtsapi32.c</in>
+        </df>
+        <df name="wuapi">
+          <in>downloader.c</in>
+          <in>installer.c</in>
+          <in>main.c</in>
+          <in>searcher.c</in>
+          <in>session.c</in>
+          <in>systeminfo.c</in>
+          <in>updates.c</in>
+          <in>wuapi_private.h</in>
+        </df>
+        <df name="wuaueng">
+          <in>main.c</in>
+        </df>
+        <df name="xapofx1_1">
+          <in>main.c</in>
+        </df>
+        <df name="xinput1_1">
+          <in>xinput1_1_main.c</in>
+        </df>
+        <df name="xinput1_2">
+          <in>xinput1_2_main.c</in>
+        </df>
+        <df name="xinput1_3">
+          <df name="tests">
+            <in>xinput.c</in>
+          </df>
+          <in>xinput1_3_main.c</in>
+        </df>
+        <df name="xinput1_4">
+          <in>xinput1_4_main.c</in>
+        </df>
+        <df name="xinput9_1_0">
+          <in>xinput9_1_0_main.c</in>
+        </df>
+        <df name="xmllite">
+          <df name="tests">
+            <in>reader.c</in>
+            <in>writer.c</in>
+          </df>
+          <in>reader.c</in>
+          <in>writer.c</in>
+          <in>xmllite_main.c</in>
+          <in>xmllite_private.h</in>
+        </df>
+        <df name="xolehlp">
+          <in>xolehlp.c</in>
+        </df>
+        <df name="xpsprint">
+          <in>main.c</in>
+        </df>
+        <df name="xpssvcs">
+          <in>main.c</in>
+        </df>
+      </df>
+      <df name="documentation">
+      </df>
+      <df name="fonts">
+      </df>
+      <df name="include">
+        <df name="ddk">
+          <in>compstui.h</in>
+          <in>hidsdi.h</in>
+          <in>imm.h</in>
+          <in>mountmgr.h</in>
+          <in>ntddcdvd.h</in>
+          <in>ntddk.h</in>
+          <in>ntddser.h</in>
+          <in>ntddtape.h</in>
+          <in>usb.h</in>
+          <in>usb100.h</in>
+          <in>usb200.h</in>
+          <in>usbdlib.h</in>
+          <in>usbioctl.h</in>
+          <in>usbiodef.h</in>
+          <in>wdm.h</in>
+          <in>winddiui.h</in>
+          <in>winsplp.h</in>
+        </df>
+        <df name="msvcrt">
+          <df name="sys">
+            <in>locking.h</in>
+            <in>stat.h</in>
+            <in>timeb.h</in>
+            <in>types.h</in>
+            <in>unistd.h</in>
+            <in>utime.h</in>
+          </df>
+          <in>assert.h</in>
+          <in>conio.h</in>
+          <in>crtdbg.h</in>
+          <in>crtdefs.h</in>
+          <in>ctype.h</in>
+          <in>direct.h</in>
+          <in>dirent.h</in>
+          <in>dos.h</in>
+          <in>eh.h</in>
+          <in>errno.h</in>
+          <in>fcntl.h</in>
+          <in>float.h</in>
+          <in>io.h</in>
+          <in>limits.h</in>
+          <in>locale.h</in>
+          <in>malloc.h</in>
+          <in>math.h</in>
+          <in>mbctype.h</in>
+          <in>mbstring.h</in>
+          <in>memory.h</in>
+          <in>process.h</in>
+          <in>search.h</in>
+          <in>setjmp.h</in>
+          <in>share.h</in>
+          <in>signal.h</in>
+          <in>stddef.h</in>
+          <in>stdio.h</in>
+          <in>stdlib.h</in>
+          <in>string.h</in>
+          <in>time.h</in>
+          <in>unistd.h</in>
+          <in>wchar.h</in>
+          <in>wctype.h</in>
+        </df>
+        <df name="wine">
+          <in>debug.h</in>
+          <in>dplaysp.h</in>
+          <in>exception.h</in>
+          <in>gdi_driver.h</in>
+          <in>library.h</in>
+          <in>list.h</in>
+          <in>mmsystem16.h</in>
+          <in>mscvpdb.h</in>
+          <in>port.h</in>
+          <in>rbtree.h</in>
+          <in>rpcfc.h</in>
+          <in>server.h</in>
+          <in>server_protocol.h</in>
+          <in>strmbase.h</in>
+          <in>test.h</in>
+          <in>unicode.h</in>
+          <in>wgl.h</in>
+          <in>wgl_driver.h</in>
+          <in>wglext.h</in>
+          <in>winaspi.h</in>
+          <in>winbase16.h</in>
+          <in>windef16.h</in>
+          <in>wined3d.h</in>
+          <in>wingdi16.h</in>
+          <in>winnet16.h</in>
+          <in>winuser16.h</in>
+          <in>wpp.h</in>
+        </df>
+        <in>accctrl.h</in>
+        <in>aclapi.h</in>
+        <in>aclui.h</in>
+        <in>adshlp.h</in>
+        <in>advpub.h</in>
+        <in>af_irda.h</in>
+        <in>amaudio.h</in>
+        <in>appcompatapi.h</in>
+        <in>appmgmt.h</in>
+        <in>atlbase.h</in>
+        <in>atlwin.h</in>
+        <in>audevcod.h</in>
+        <in>audiosessiontypes.h</in>
+        <in>aviriff.h</in>
+        <in>avrt.h</in>
+        <in>basetsd.h</in>
+        <in>basetyps.h</in>
+        <in>bcrypt.h</in>
+        <in>bitsmsg.h</in>
+        <in>cderr.h</in>
+        <in>cfgmgr32.h</in>
+        <in>cguid.h</in>
+        <in>cierror.h</in>
+        <in>clusapi.h</in>
+        <in>commctrl.h</in>
+        <in>commctrl.rh</in>
+        <in>commdlg.h</in>
+        <in>compobj.h</in>
+        <in>corerror.h</in>
+        <in>corhdr.h</in>
+        <in>cpl.h</in>
+        <in>cryptdlg.h</in>
+        <in>cryptuiapi.h</in>
+        <in>custcntl.h</in>
+        <in>cvconst.h</in>
+        <in>d3d.h</in>
+        <in>d3d10_1shader.h</in>
+        <in>d3d10effect.h</in>
+        <in>d3d10misc.h</in>
+        <in>d3d10shader.h</in>
+        <in>d3d11shader.h</in>
+        <in>d3d8.h</in>
+        <in>d3d8caps.h</in>
+        <in>d3d8types.h</in>
+        <in>d3d9.h</in>
+        <in>d3d9caps.h</in>
+        <in>d3d9types.h</in>
+        <in>d3dcaps.h</in>
+        <in>d3dcompiler.h</in>
+        <in>d3dhal.h</in>
+        <in>d3drm.h</in>
+        <in>d3drmdef.h</in>
+        <in>d3drmobj.h</in>
+        <in>d3drmwin.h</in>
+        <in>d3dtypes.h</in>
+        <in>d3dvec.inl</in>
+        <in>d3dx9.h</in>
+        <in>d3dx9anim.h</in>
+        <in>d3dx9core.h</in>
+        <in>d3dx9effect.h</in>
+        <in>d3dx9math.h</in>
+        <in>d3dx9math.inl</in>
+        <in>d3dx9mesh.h</in>
+        <in>d3dx9shader.h</in>
+        <in>d3dx9shape.h</in>
+        <in>d3dx9tex.h</in>
+        <in>d3dx9xof.h</in>
+        <in>dbghelp.h</in>
+        <in>dbt.h</in>
+        <in>dciddi.h</in>
+        <in>dciman.h</in>
+        <in>dcommon.h</in>
+        <in>dde.h</in>
+        <in>dde.rh</in>
+        <in>ddeml.h</in>
+        <in>ddraw.h</in>
+        <in>ddrawgdi.h</in>
+        <in>ddrawi.h</in>
+        <in>delayloadhandler.h</in>
+        <in>devguid.h</in>
+        <in>devpkey.h</in>
+        <in>devpropdef.h</in>
+        <in>difxapi.h</in>
+        <in>digitalv.h</in>
+        <in>dinput.h</in>
+        <in>dinputd.h</in>
+        <in>dispdib.h</in>
+        <in>dlgs.h</in>
+        <in>dls1.h</in>
+        <in>dls2.h</in>
+        <in>dmdls.h</in>
+        <in>dmerror.h</in>
+        <in>dmksctrl.h</in>
+        <in>dmo.h</in>
+        <in>dmoreg.h</in>
+        <in>dmort.h</in>
+        <in>dmplugin.h</in>
+        <in>dmusbuff.h</in>
+        <in>dmusicc.h</in>
+        <in>dmusicf.h</in>
+        <in>dmusici.h</in>
+        <in>dmusics.h</in>
+        <in>dpaddr.h</in>
+        <in>dplay.h</in>
+        <in>dplay8.h</in>
+        <in>dplobby.h</in>
+        <in>dplobby8.h</in>
+        <in>dpnathlp.h</in>
+        <in>dsconf.h</in>
+        <in>dsgetdc.h</in>
+        <in>dshow.h</in>
+        <in>dsound.h</in>
+        <in>dsrole.h</in>
+        <in>dvdmedia.h</in>
+        <in>dwmapi.h</in>
+        <in>dxdiag.h</in>
+        <in>dxerr8.h</in>
+        <in>dxerr9.h</in>
+        <in>dxfile.h</in>
+        <in>dxgiformat.h</in>
+        <in>dxgitype.h</in>
+        <in>errorrep.h</in>
+        <in>errors.h</in>
+        <in>evcode.h</in>
+        <in>evntprov.h</in>
+        <in>evntrace.h</in>
+        <in>excpt.h</in>
+        <in>exdispid.h</in>
+        <in>fci.h</in>
+        <in>fdi.h</in>
+        <in>fileapi.h</in>
+        <in>fltdefs.h</in>
+        <in>gdiplus.h</in>
+        <in>gdipluscolor.h</in>
+        <in>gdipluscolormatrix.h</in>
+        <in>gdiplusenums.h</in>
+        <in>gdiplusflat.h</in>
+        <in>gdiplusgpstubs.h</in>
+        <in>gdiplusimaging.h</in>
+        <in>gdiplusinit.h</in>
+        <in>gdiplusmem.h</in>
+        <in>gdiplusmetaheader.h</in>
+        <in>gdipluspixelformats.h</in>
+        <in>gdiplustypes.h</in>
+        <in>guiddef.h</in>
+        <in>hlguids.h</in>
+        <in>htmlhelp.h</in>
+        <in>http.h</in>
+        <in>httprequestid.h</in>
+        <in>i_cryptasn1tls.h</in>
+        <in>icm.h</in>
+        <in>icmpapi.h</in>
+        <in>idispids.h</in>
+        <in>ifdef.h</in>
+        <in>ifmib.h</in>
+        <in>imagehlp.h</in>
+        <in>imm.h</in>
+        <in>in6addr.h</in>
+        <in>inaddr.h</in>
+        <in>initguid.h</in>
+        <in>intshcut.h</in>
+        <in>ipexport.h</in>
+        <in>iphlpapi.h</in>
+        <in>ipifcons.h</in>
+        <in>ipmib.h</in>
+        <in>iprtrmib.h</in>
+        <in>iptypes.h</in>
+        <in>isguids.h</in>
+        <in>knownfolders.h</in>
+        <in>ks.h</in>
+        <in>ksguid.h</in>
+        <in>ksmedia.h</in>
+        <in>lm.h</in>
+        <in>lmaccess.h</in>
+        <in>lmapibuf.h</in>
+        <in>lmat.h</in>
+        <in>lmbrowsr.h</in>
+        <in>lmcons.h</in>
+        <in>lmerr.h</in>
+        <in>lmjoin.h</in>
+        <in>lmmsg.h</in>
+        <in>lmserver.h</in>
+        <in>lmshare.h</in>
+        <in>lmstats.h</in>
+        <in>lmuse.h</in>
+        <in>lmuseflg.h</in>
+        <in>lmwksta.h</in>
+        <in>loadperf.h</in>
+        <in>lzexpand.h</in>
+        <in>mapi.h</in>
+        <in>mapicode.h</in>
+        <in>mapidefs.h</in>
+        <in>mapiform.h</in>
+        <in>mapiguid.h</in>
+        <in>mapitags.h</in>
+        <in>mapiutil.h</in>
+        <in>mapival.h</in>
+        <in>mapix.h</in>
+        <in>mciavi.h</in>
+        <in>mcx.h</in>
+        <in>mediaerr.h</in>
+        <in>midles.h</in>
+        <in>minmax.h</in>
+        <in>mmddk.h</in>
+        <in>mmreg.h</in>
+        <in>mmsystem.h</in>
+        <in>mprapi.h</in>
+        <in>mprerror.h</in>
+        <in>msacm.h</in>
+        <in>msacmdlg.h</in>
+        <in>msacmdrv.h</in>
+        <in>mscat.h</in>
+        <in>msdaguid.h</in>
+        <in>mshtmcid.h</in>
+        <in>mshtmdid.h</in>
+        <in>msi.h</in>
+        <in>msidefs.h</in>
+        <in>msiquery.h</in>
+        <in>mssip.h</in>
+        <in>mstcpip.h</in>
+        <in>mswsock.h</in>
+        <in>msxml2did.h</in>
+        <in>msxml6did.h</in>
+        <in>msxmldid.h</in>
+        <in>nb30.h</in>
+        <in>ndrtypes.h</in>
+        <in>nldef.h</in>
+        <in>npapi.h</in>
+        <in>nspapi.h</in>
+        <in>ntddcdrm.h</in>
+        <in>ntddndis.h</in>
+        <in>ntddscsi.h</in>
+        <in>ntddstor.h</in>
+        <in>ntdsapi.h</in>
+        <in>ntquery.h</in>
+        <in>ntsecapi.h</in>
+        <in>ntsecpkg.h</in>
+        <in>ntstatus.h</in>
+        <in>objbase.h</in>
+        <in>objsel.h</in>
+        <in>odbcinst.h</in>
+        <in>ole2.h</in>
+        <in>ole2ver.h</in>
+        <in>oleauto.h</in>
+        <in>olectl.h</in>
+        <in>oledberr.h</in>
+        <in>oledlg.h</in>
+        <in>patchapi.h</in>
+        <in>pdh.h</in>
+        <in>pdhmsg.h</in>
+        <in>pktdef.h</in>
+        <in>poppack.h</in>
+        <in>powrprof.h</in>
+        <in>profinfo.h</in>
+        <in>propkey.h</in>
+        <in>propkeydef.h</in>
+        <in>propvarutil.h</in>
+        <in>prsht.h</in>
+        <in>psapi.h</in>
+        <in>pshpack1.h</in>
+        <in>pshpack2.h</in>
+        <in>pshpack4.h</in>
+        <in>pshpack8.h</in>
+        <in>ras.h</in>
+        <in>rasdlg.h</in>
+        <in>raserror.h</in>
+        <in>reason.h</in>
+        <in>regstr.h</in>
+        <in>restartmanager.h</in>
+        <in>richedit.h</in>
+        <in>rmxfguid.h</in>
+        <in>rpc.h</in>
+        <in>rpcasync.h</in>
+        <in>rpcdce.h</in>
+        <in>rpcdcep.h</in>
+        <in>rpcndr.h</in>
+        <in>rpcnterr.h</in>
+        <in>rpcproxy.h</in>
+        <in>rpcsal.h</in>
+        <in>rtutils.h</in>
+        <in>scarderr.h</in>
+        <in>schannel.h</in>
+        <in>schemadef.h</in>
+        <in>schnlsp.h</in>
+        <in>sddl.h</in>
+        <in>secext.h</in>
+        <in>security.h</in>
+        <in>sensapi.h</in>
+        <in>setupapi.h</in>
+        <in>sfc.h</in>
+        <in>shdispid.h</in>
+        <in>shellapi.h</in>
+        <in>shlguid.h</in>
+        <in>shlobj.h</in>
+        <in>shlwapi.h</in>
+        <in>sipbase.h</in>
+        <in>slerror.h</in>
+        <in>slpublic.h</in>
+        <in>snmp.h</in>
+        <in>softpub.h</in>
+        <in>sql.h</in>
+        <in>sqlext.h</in>
+        <in>sqltypes.h</in>
+        <in>srrestoreptapi.h</in>
+        <in>sspi.h</in>
+        <in>sti.h</in>
+        <in>storage.h</in>
+        <in>strsafe.h</in>
+        <in>svrapi.h</in>
+        <in>t2embapi.h</in>
+        <in>tapi.h</in>
+        <in>tchar.h</in>
+        <in>tcpmib.h</in>
+        <in>textserv.h</in>
+        <in>tlhelp32.h</in>
+        <in>tmschema.h</in>
+        <in>traffic.h</in>
+        <in>twain.h</in>
+        <in>udpmib.h</in>
+        <in>uiautomation.h</in>
+        <in>uiautomationcoreapi.h</in>
+        <in>userenv.h</in>
+        <in>usp10.h</in>
+        <in>uuids.h</in>
+        <in>uxtheme.h</in>
+        <in>vdmdbg.h</in>
+        <in>ver.h</in>
+        <in>verrsrc.h</in>
+        <in>vfw.h</in>
+        <in>vfwmsgs.h</in>
+        <in>vsstyle.h</in>
+        <in>vssym32.h</in>
+        <in>werapi.h</in>
+        <in>wfext.h</in>
+        <in>wia.h</in>
+        <in>winbase.h</in>
+        <in>wincon.h</in>
+        <in>wincred.h</in>
+        <in>wincrypt.h</in>
+        <in>windef.h</in>
+        <in>windns.h</in>
+        <in>windows.h</in>
+        <in>windowsx.h</in>
+        <in>winerror.h</in>
+        <in>winevt.h</in>
+        <in>wingdi.h</in>
+        <in>winhttp.h</in>
+        <in>wininet.h</in>
+        <in>winineti.h</in>
+        <in>winioctl.h</in>
+        <in>winldap.h</in>
+        <in>winnetwk.h</in>
+        <in>winnls.h</in>
+        <in>winnls32.h</in>
+        <in>winnt.h</in>
+        <in>winnt.rh</in>
+        <in>winperf.h</in>
+        <in>winreg.h</in>
+        <in>winresrc.h</in>
+        <in>winsafer.h</in>
+        <in>winscard.h</in>
+        <in>winsmcrd.h</in>
+        <in>winsnmp.h</in>
+        <in>winsock.h</in>
+        <in>winsock2.h</in>
+        <in>winspool.h</in>
+        <in>winsvc.h</in>
+        <in>wintab.h</in>
+        <in>wintabx.h</in>
+        <in>winternl.h</in>
+        <in>wintrust.h</in>
+        <in>winuser.h</in>
+        <in>winuser.rh</in>
+        <in>winver.h</in>
+        <in>wmistr.h</in>
+        <in>wnaspi32.h</in>
+        <in>wownt32.h</in>
+        <in>ws2def.h</in>
+        <in>ws2ipdef.h</in>
+        <in>ws2spi.h</in>
+        <in>ws2tcpip.h</in>
+        <in>wshisotp.h</in>
+        <in>wsipx.h</in>
+        <in>wsnwlink.h</in>
+        <in>wtsapi32.h</in>
+        <in>xcmc.h</in>
+        <in>xinput.h</in>
+        <in>xmldom.h</in>
+        <in>xmldomdid.h</in>
+        <in>xmldsodid.h</in>
+        <in>zmouse.h</in>
+      </df>
+      <df name="libs">
+        <df name="port">
+          <in>ffs.c</in>
+          <in>fstatvfs.c</in>
+          <in>getopt.c</in>
+          <in>getopt.h</in>
+          <in>getopt1.c</in>
+          <in>interlocked.c</in>
+          <in>isinf.c</in>
+          <in>isnan.c</in>
+          <in>lstat.c</in>
+          <in>memcpy_unaligned.c</in>
+          <in>memmove.c</in>
+          <in>mkstemps.c</in>
+          <in>poll.c</in>
+          <in>pread.c</in>
+          <in>pwrite.c</in>
+          <in>readlink.c</in>
+          <in>spawn.c</in>
+          <in>statvfs.c</in>
+          <in>strcasecmp.c</in>
+          <in>strerror.c</in>
+          <in>strncasecmp.c</in>
+          <in>symlink.c</in>
+          <in>usleep.c</in>
+        </df>
+        <df name="wine">
+          <in>c_037.c</in>
+          <in>c_10000.c</in>
+          <in>c_10001.c</in>
+          <in>c_10002.c</in>
+          <in>c_10003.c</in>
+          <in>c_10004.c</in>
+          <in>c_10005.c</in>
+          <in>c_10006.c</in>
+          <in>c_10007.c</in>
+          <in>c_10008.c</in>
+          <in>c_10010.c</in>
+          <in>c_10017.c</in>
+          <in>c_10021.c</in>
+          <in>c_10029.c</in>
+          <in>c_1006.c</in>
+          <in>c_10079.c</in>
+          <in>c_10081.c</in>
+          <in>c_10082.c</in>
+          <in>c_1026.c</in>
+          <in>c_1250.c</in>
+          <in>c_1251.c</in>
+          <in>c_1252.c</in>
+          <in>c_1253.c</in>
+          <in>c_1254.c</in>
+          <in>c_1255.c</in>
+          <in>c_1256.c</in>
+          <in>c_1257.c</in>
+          <in>c_1258.c</in>
+          <in>c_1361.c</in>
+          <in>c_20127.c</in>
+          <in>c_20866.c</in>
+          <in>c_20932.c</in>
+          <in>c_21866.c</in>
+          <in>c_28591.c</in>
+          <in>c_28592.c</in>
+          <in>c_28593.c</in>
+          <in>c_28594.c</in>
+          <in>c_28595.c</in>
+          <in>c_28596.c</in>
+          <in>c_28597.c</in>
+          <in>c_28598.c</in>
+          <in>c_28599.c</in>
+          <in>c_28600.c</in>
+          <in>c_28603.c</in>
+          <in>c_28604.c</in>
+          <in>c_28605.c</in>
+          <in>c_28606.c</in>
+          <in>c_424.c</in>
+          <in>c_437.c</in>
+          <in>c_500.c</in>
+          <in>c_737.c</in>
+          <in>c_775.c</in>
+          <in>c_850.c</in>
+          <in>c_852.c</in>
+          <in>c_855.c</in>
+          <in>c_856.c</in>
+          <in>c_857.c</in>
+          <in>c_860.c</in>
+          <in>c_861.c</in>
+          <in>c_862.c</in>
+          <in>c_863.c</in>
+          <in>c_864.c</in>
+          <in>c_865.c</in>
+          <in>c_866.c</in>
+          <in>c_869.c</in>
+          <in>c_874.c</in>
+          <in>c_875.c</in>
+          <in>c_878.c</in>
+          <in>c_932.c</in>
+          <in>c_936.c</in>
+          <in>c_949.c</in>
+          <in>c_950.c</in>
+          <in>casemap.c</in>
+          <in>collation.c</in>
+          <in>compose.c</in>
+          <in>config.c</in>
+          <in>cptable.c</in>
+          <in>debug.c</in>
+          <in>fold.c</in>
+          <in>ldt.c</in>
+          <in>loader.c</in>
+          <in>mbtowc.c</in>
+          <in>mmap.c</in>
+          <in>port.c</in>
+          <in>sortkey.c</in>
+          <in>string.c</in>
+          <in>utf8.c</in>
+          <in>wctomb.c</in>
+          <in>wctype.c</in>
+        </df>
+        <df name="wpp">
+          <in>preproc.c</in>
+          <in>wpp.c</in>
+          <in>wpp_private.h</in>
+        </df>
+      </df>
+      <df name="loader">
+        <in>main.c</in>
+        <in>main.h</in>
+        <in>preloader.c</in>
+      </df>
+      <df name="po">
+      </df>
+      <df name="programs">
+        <df name="aspnet_regiis">
+          <in>main.c</in>
+        </df>
+        <df name="attrib">
+          <in>attrib.c</in>
+          <in>attrib.h</in>
+        </df>
+        <df name="cabarc">
+          <in>cabarc.c</in>
+        </df>
+        <df name="cacls">
+          <in>cacls_main.c</in>
+        </df>
+        <df name="clock">
+          <in>clock_res.h</in>
+          <in>main.c</in>
+          <in>main.h</in>
+          <in>winclock.c</in>
+          <in>winclock.h</in>
+        </df>
+        <df name="cmd">
+          <df name="tests">
+            <in>batch.c</in>
+          </df>
+          <in>batch.c</in>
+          <in>builtins.c</in>
+          <in>directory.c</in>
+          <in>wcmd.h</in>
+          <in>wcmdmain.c</in>
+        </df>
+        <df name="conhost">
+          <in>conhost.c</in>
+        </df>
+        <df name="control">
+          <in>control.c</in>
+        </df>
+        <df name="cscript">
+          <in>main.c</in>
+        </df>
+        <df name="dxdiag">
+          <in>dxdiag_private.h</in>
+          <in>information.c</in>
+          <in>main.c</in>
+          <in>output.c</in>
+        </df>
+        <df name="eject">
+          <in>eject.c</in>
+        </df>
+        <df name="expand">
+          <in>expand.c</in>
+        </df>
+        <df name="explorer">
+          <in>appbar.c</in>
+          <in>desktop.c</in>
+          <in>explorer.c</in>
+          <in>explorer_private.h</in>
+          <in>resource.h</in>
+          <in>systray.c</in>
+        </df>
+        <df name="extrac32">
+          <in>extrac32.c</in>
+        </df>
+        <df name="findstr">
+          <in>main.c</in>
+        </df>
+        <df name="hh">
+          <in>main.c</in>
+        </df>
+        <df name="hostname">
+          <in>hostname.c</in>
+          <in>hostname.h</in>
+        </df>
+        <df name="icinfo">
+          <in>icinfo.c</in>
+        </df>
+        <df name="iexplore">
+          <in>main.c</in>
+        </df>
+        <df name="ipconfig">
+          <in>ipconfig.c</in>
+          <in>ipconfig.h</in>
+        </df>
+        <df name="lodctr">
+          <in>lodctr_main.c</in>
+        </df>
+        <df name="mofcomp">
+          <in>mofcomp.c</in>
+        </df>
+        <df name="mshta">
+          <in>main.c</in>
+        </df>
+        <df name="msiexec">
+          <in>msiexec.c</in>
+          <in>service.c</in>
+        </df>
+        <df name="net">
+          <in>net.c</in>
+          <in>resources.h</in>
+        </df>
+        <df name="netsh">
+          <in>netsh.c</in>
+        </df>
+        <df name="netstat">
+          <in>netstat.c</in>
+          <in>netstat.h</in>
+        </df>
+        <df name="ngen">
+          <in>ngen_main.c</in>
+        </df>
+        <df name="notepad">
+          <in>dialog.c</in>
+          <in>dialog.h</in>
+          <in>main.c</in>
+          <in>main.h</in>
+          <in>notepad_res.h</in>
+        </df>
+        <df name="oleview">
+          <in>details.c</in>
+          <in>interface.c</in>
+          <in>main.h</in>
+          <in>oleview.c</in>
+          <in>pane.c</in>
+          <in>resource.h</in>
+          <in>tree.c</in>
+          <in>typelib.c</in>
+        </df>
+        <df name="ping">
+          <in>ping_main.c</in>
+        </df>
+        <df name="plugplay">
+          <in>main.c</in>
+        </df>
+        <df name="presentationfontcache">
+          <in>main.c</in>
+        </df>
+        <df name="progman">
+          <in>dialog.c</in>
+          <in>group.c</in>
+          <in>grpfile.c</in>
+          <in>main.c</in>
+          <in>progman.h</in>
+          <in>program.c</in>
+          <in>string.c</in>
+        </df>
+        <df name="reg">
+          <in>reg.c</in>
+          <in>reg.h</in>
+        </df>
+        <df name="regasm">
+          <in>main.c</in>
+        </df>
+        <df name="regedit">
+          <df name="tests">
+            <in>regedit.c</in>
+          </df>
+          <in>about.c</in>
+          <in>childwnd.c</in>
+          <in>edit.c</in>
+          <in>framewnd.c</in>
+          <in>hexedit.c</in>
+          <in>listview.c</in>
+          <in>main.c</in>
+          <in>main.h</in>
+          <in>regedit.c</in>
+          <in>regproc.c</in>
+          <in>regproc.h</in>
+          <in>resource.h</in>
+          <in>treeview.c</in>
+        </df>
+        <df name="regsvcs">
+          <in>main.c</in>
+        </df>
+        <df name="regsvr32">
+          <in>regsvr32.c</in>
+        </df>
+        <df name="rpcss">
+          <in>epmp.c</in>
+          <in>irotp.c</in>
+          <in>rpcss_main.c</in>
+        </df>
+        <df name="rundll.exe16">
+          <in>rundll.c</in>
+        </df>
+        <df name="rundll32">
+          <in>rundll32.c</in>
+        </df>
+        <df name="sc">
+          <in>sc.c</in>
+        </df>
+        <df name="schtasks">
+          <in>schtasks.c</in>
+        </df>
+        <df name="secedit">
+          <in>main.c</in>
+        </df>
+        <df name="servicemodelreg">
+          <in>main.c</in>
+        </df>
+        <df name="services">
+          <df name="tests">
+            <in>service.c</in>
+          </df>
+          <in>rpc.c</in>
+          <in>services.c</in>
+          <in>services.h</in>
+          <in>utils.c</in>
+        </df>
+        <df name="spoolsv">
+          <in>main.c</in>
+        </df>
+        <df name="start">
+          <in>resources.h</in>
+          <in>start.c</in>
+        </df>
+        <df name="svchost">
+          <in>svchost.c</in>
+        </df>
+        <df name="taskkill">
+          <in>taskkill.c</in>
+          <in>taskkill.h</in>
+        </df>
+        <df name="tasklist">
+          <in>tasklist.c</in>
+        </df>
+        <df name="taskmgr">
+          <in>about.c</in>
+          <in>affinity.c</in>
+          <in>applpage.c</in>
+          <in>column.c</in>
+          <in>column.h</in>
+          <in>dbgchnl.c</in>
+          <in>debug.c</in>
+          <in>endproc.c</in>
+          <in>graph.c</in>
+          <in>graphctl.c</in>
+          <in>graphctl.h</in>
+          <in>optnmenu.c</in>
+          <in>perfdata.c</in>
+          <in>perfdata.h</in>
+          <in>perfpage.c</in>
+          <in>priority.c</in>
+          <in>proclist.c</in>
+          <in>procpage.c</in>
+          <in>resource.h</in>
+          <in>run.c</in>
+          <in>taskmgr.c</in>
+          <in>taskmgr.h</in>
+          <in>trayicon.c</in>
+        </df>
+        <df name="termsv">
+          <in>main.c</in>
+        </df>
+        <df name="uninstaller">
+          <in>main.c</in>
+          <in>resource.h</in>
+        </df>
+        <df name="unlodctr">
+          <in>unlodctr_main.c</in>
+        </df>
+        <df name="view">
+          <in>resource.h</in>
+          <in>view.c</in>
+        </df>
+        <df name="wineboot">
+          <in>resource.h</in>
+          <in>shutdown.c</in>
+          <in>wineboot.c</in>
+        </df>
+        <df name="winebrowser">
+          <in>main.c</in>
+        </df>
+        <df name="winecfg">
+          <in>about.c</in>
+          <in>appdefaults.c</in>
+          <in>audio.c</in>
+          <in>drive.c</in>
+          <in>drivedetect.c</in>
+          <in>driveui.c</in>
+          <in>libraries.c</in>
+          <in>main.c</in>
+          <in>resource.h</in>
+          <in>theme.c</in>
+          <in>winecfg.c</in>
+          <in>winecfg.h</in>
+          <in>x11drvdlg.c</in>
+        </df>
+        <df name="wineconsole">
+          <in>curses.c</in>
+          <in>dialog.c</in>
+          <in>registry.c</in>
+          <in>user.c</in>
+          <in>winecon_private.h</in>
+          <in>winecon_user.h</in>
+          <in>wineconsole.c</in>
+          <in>wineconsole_res.h</in>
+        </df>
+        <df name="winedbg">
+          <in>be_arm.c</in>
+          <in>be_arm64.c</in>
+          <in>be_cpu.h</in>
+          <in>be_i386.c</in>
+          <in>be_ppc.c</in>
+          <in>be_x86_64.c</in>
+          <in>break.c</in>
+          <in>crashdlg.c</in>
+          <in>db_disasm.c</in>
+          <in>db_disasm64.c</in>
+          <in>debugger.h</in>
+          <in>display.c</in>
+          <in>expr.c</in>
+          <in>expr.h</in>
+          <in>gdbproxy.c</in>
+          <in>info.c</in>
+          <in>intvar.h</in>
+          <in>memory.c</in>
+          <in>resource.h</in>
+          <in>source.c</in>
+          <in>stack.c</in>
+          <in>symbol.c</in>
+          <in>tgt_active.c</in>
+          <in>tgt_minidump.c</in>
+          <in>tgt_module.c</in>
+          <in>types.c</in>
+          <in>winedbg.c</in>
+        </df>
+        <df name="winedevice">
+          <in>device.c</in>
+        </df>
+        <df name="winefile">
+          <in>resource.h</in>
+          <in>splitpath.c</in>
+          <in>winefile.c</in>
+          <in>winefile.h</in>
+        </df>
+        <df name="winemenubuilder">
+          <in>winemenubuilder.c</in>
+        </df>
+        <df name="winemine">
+          <in>dialog.c</in>
+          <in>main.c</in>
+          <in>main.h</in>
+          <in>resource.h</in>
+        </df>
+        <df name="winemsibuilder">
+          <in>main.c</in>
+        </df>
+        <df name="winepath">
+          <in>winepath.c</in>
+        </df>
+        <df name="winetest">
+          <in>gui.c</in>
+          <in>main.c</in>
+          <in>resource.h</in>
+          <in>send.c</in>
+          <in>util.c</in>
+          <in>winetest.h</in>
+        </df>
+        <df name="winevdm">
+          <in>winevdm.c</in>
+        </df>
+        <df name="winhelp.exe16">
+          <in>winhelp.c</in>
+        </df>
+        <df name="winhlp32">
+          <in>callback.c</in>
+          <in>hlpfile.c</in>
+          <in>hlpfile.h</in>
+          <in>macro.c</in>
+          <in>macro.h</in>
+          <in>string.c</in>
+          <in>winhelp.c</in>
+          <in>winhelp.h</in>
+          <in>winhelp_res.h</in>
+        </df>
+        <df name="winoldap.mod16">
+          <in>winoldap.c</in>
+        </df>
+        <df name="winver">
+          <in>winver.c</in>
+        </df>
+        <df name="wmic">
+          <in>main.c</in>
+          <in>wmic.h</in>
+        </df>
+        <df name="wordpad">
+          <in>olecallback.c</in>
+          <in>print.c</in>
+          <in>registry.c</in>
+          <in>wordpad.c</in>
+          <in>wordpad.h</in>
+        </df>
+        <df name="write">
+          <in>resources.h</in>
+          <in>write.c</in>
+        </df>
+        <df name="wscript">
+          <df name="tests">
+            <in>run.c</in>
+          </df>
+          <in>arguments.c</in>
+          <in>host.c</in>
+          <in>ihost_dispid.h</in>
+          <in>main.c</in>
+          <in>wscript.h</in>
+        </df>
+        <df name="wusa">
+          <in>main.c</in>
+        </df>
+        <df name="xcopy">
+          <in>xcopy.c</in>
+          <in>xcopy.h</in>
+        </df>
+      </df>
+      <df name="server">
+        <in>async.c</in>
+        <in>atom.c</in>
+        <in>change.c</in>
+        <in>class.c</in>
+        <in>clipboard.c</in>
+        <in>completion.c</in>
+        <in>console.c</in>
+        <in>debugger.c</in>
+        <in>device.c</in>
+        <in>directory.c</in>
+        <in>event.c</in>
+        <in>fd.c</in>
+        <in>file.c</in>
+        <in>file.h</in>
+        <in>handle.c</in>
+        <in>handle.h</in>
+        <in>hook.c</in>
+        <in>mach.c</in>
+        <in>mailslot.c</in>
+        <in>main.c</in>
+        <in>mapping.c</in>
+        <in>mutex.c</in>
+        <in>named_pipe.c</in>
+        <in>object.c</in>
+        <in>object.h</in>
+        <in>process.c</in>
+        <in>process.h</in>
+        <in>procfs.c</in>
+        <in>ptrace.c</in>
+        <in>queue.c</in>
+        <in>region.c</in>
+        <in>registry.c</in>
+        <in>request.c</in>
+        <in>request.h</in>
+        <in>security.h</in>
+        <in>semaphore.c</in>
+        <in>serial.c</in>
+        <in>signal.c</in>
+        <in>snapshot.c</in>
+        <in>sock.c</in>
+        <in>symlink.c</in>
+        <in>thread.c</in>
+        <in>thread.h</in>
+        <in>timer.c</in>
+        <in>token.c</in>
+        <in>trace.c</in>
+        <in>unicode.c</in>
+        <in>unicode.h</in>
+        <in>user.c</in>
+        <in>user.h</in>
+        <in>window.c</in>
+        <in>winstation.c</in>
+      </df>
+      <df name="tools">
+        <df name="widl">
+          <in>client.c</in>
+          <in>expr.c</in>
+          <in>expr.h</in>
+          <in>hash.c</in>
+          <in>hash.h</in>
+          <in>header.c</in>
+          <in>header.h</in>
+          <in>parser.h</in>
+          <in>proxy.c</in>
+          <in>register.c</in>
+          <in>server.c</in>
+          <in>typegen.c</in>
+          <in>typegen.h</in>
+          <in>typelib.c</in>
+          <in>typelib.h</in>
+          <in>typelib_struct.h</in>
+          <in>typetree.c</in>
+          <in>typetree.h</in>
+          <in>utils.c</in>
+          <in>utils.h</in>
+          <in>widl.c</in>
+          <in>widl.h</in>
+          <in>widltypes.h</in>
+          <in>write_msft.c</in>
+        </df>
+        <df name="winapi">
+        </df>
+        <df name="winebuild">
+          <in>build.h</in>
+          <in>import.c</in>
+          <in>main.c</in>
+          <in>parser.c</in>
+          <in>relay.c</in>
+          <in>res16.c</in>
+          <in>res32.c</in>
+          <in>spec16.c</in>
+          <in>spec32.c</in>
+          <in>utils.c</in>
+        </df>
+        <df name="winedump">
+          <in>debug.c</in>
+          <in>dos.c</in>
+          <in>dump.c</in>
+          <in>emf.c</in>
+          <in>font.c</in>
+          <in>le.c</in>
+          <in>lib.c</in>
+          <in>lnk.c</in>
+          <in>main.c</in>
+          <in>minidump.c</in>
+          <in>misc.c</in>
+          <in>msc.c</in>
+          <in>msmangle.c</in>
+          <in>ne.c</in>
+          <in>output.c</in>
+          <in>pdb.c</in>
+          <in>pe.c</in>
+          <in>search.c</in>
+          <in>symbol.c</in>
+          <in>tlb.c</in>
+          <in>winedump.h</in>
+        </df>
+        <df name="winegcc">
+          <in>utils.c</in>
+          <in>utils.h</in>
+          <in>winegcc.c</in>
+        </df>
+        <df name="wmc">
+          <in>lang.c</in>
+          <in>lang.h</in>
+          <in>mcl.c</in>
+          <in>po.c</in>
+          <in>utils.c</in>
+          <in>utils.h</in>
+          <in>wmc.c</in>
+          <in>wmc.h</in>
+          <in>wmctypes.h</in>
+          <in>write.c</in>
+          <in>write.h</in>
+        </df>
+        <df name="wrc">
+          <in>dumpres.c</in>
+          <in>dumpres.h</in>
+          <in>genres.c</in>
+          <in>genres.h</in>
+          <in>newstruc.c</in>
+          <in>newstruc.h</in>
+          <in>parser.h</in>
+          <in>po.c</in>
+          <in>readres.c</in>
+          <in>readres.h</in>
+          <in>translation.c</in>
+          <in>utils.c</in>
+          <in>utils.h</in>
+          <in>wrc.c</in>
+          <in>wrc.h</in>
+          <in>wrctypes.h</in>
+          <in>writeres.c</in>
+        </df>
+        <in>fnt2fon.c</in>
+        <in>make_ctests.c</in>
+        <in>make_xftmpl.c</in>
+        <in>makedep.c</in>
+        <in>relpath.c</in>
+        <in>sfnt2fnt.c</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
