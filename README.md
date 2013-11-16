@@ -14,4 +14,14 @@ realice las siguientes actividades.
     d) Comente que plugins emplearía para integrar el control de versiones en GitHub y el IDE
        que usa en su desarrollo. Indique el proceso de instalación del plugins y que protocolo
        usaría en su configuración.
+       
+## DOXYGEN
 
+Se ha documentado, utilizando la herramienta Doxygen, uno de los programas que se 
+reimplementan en WINE. En concreto ha sido el programa "WinClock", encargado del
+manejo y dinujado de relojes (analógicos y digitales) en controles de windows.
+
+    *El programa se encuentra en la ruta: programs/clock.
+    
+    *Se generó un fichero de configuración, para doxygen, sólo para esta sección
+    del código.
