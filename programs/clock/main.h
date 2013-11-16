@@ -23,22 +23,26 @@
 #define MAX_STRING_LEN      255
 #define DEFAULTICON OIC_WINLOGO
 
+/**
+ * Struct encargado de aglutinar todos los parámetros que configuran el
+ * comportamiento y apariencia del reloj.
+ */
 typedef struct
 {
-  LOGFONTW logfont;
-  HFONT   hFont;
-  HANDLE  hInstance;
-  HWND    hMainWnd;
-  HMENU   hMainMenu;
+  LOGFONTW logfont;   /**< Fuente a utilizar para los mensajes de Log. */
+  HFONT   hFont;      /**< Fuente a utilizar para en el reloj. */
+  HANDLE  hInstance;  /**< Manejador a la instancia donde se mostrará el reloj. */
+  HWND    hMainWnd;   /**< Manejador a la ventana donde se mostrará el reloj. */
+  HMENU   hMainMenu;  /**< Manejador al menu donde se mostrará el reloj. */
 
-  BOOL    bAnalog;
-  BOOL    bAlwaysOnTop;
-  BOOL    bWithoutTitle;
-  BOOL    bSeconds;
-  BOOL    bDate;
+  BOOL    bAnalog;       /**< Indica si se trata de un reloj analógico */
+  BOOL    bAlwaysOnTop;  /**< Indica si se mostrará por encima del resto de elementos. */
+  BOOL    bWithoutTitle; /**< Indica si se mostrará sin título asociado. */
+  BOOL    bSeconds;      /**< Indica si se mostrarán los segundos (o el secundero en el reloj analógico). */
+  BOOL    bDate;         /**< Indica si se mostrará la fecha. */
 
-  int     MaxX;
-  int     MaxY;
+  int     MaxX;         /**< Valor máximo para la posición horizontal. */
+  int     MaxY;         /**< Valor máximo para la posición vertical. */
 } CLOCK_GLOBALS;
 
 extern CLOCK_GLOBALS Globals;
