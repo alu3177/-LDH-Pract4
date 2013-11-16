@@ -23,6 +23,8 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
  */
+/*! \file */
+
 #include "config.h"
 #include "wine/port.h"
 
@@ -32,21 +34,25 @@
 #include "windows.h"
 #include "winclock.h"
 
-#define FaceColor (GetSysColor(COLOR_3DFACE))
-#define HandColor (GetSysColor(COLOR_3DHIGHLIGHT))
-#define TickColor (GetSysColor(COLOR_3DHIGHLIGHT))
-#define ShadowColor (GetSysColor(COLOR_3DDKSHADOW))
-#define BackgroundColor (GetSysColor(COLOR_3DFACE))
+#define FaceColor (GetSysColor(COLOR_3DFACE))       /**< Color del frontal del reloj analógico */
+#define HandColor (GetSysColor(COLOR_3DHIGHLIGHT))  /**< Color de las manecillas del reloj analógico */
+#define TickColor (GetSysColor(COLOR_3DHIGHLIGHT))  /**< Color del secundero del reloj analógico */
+#define ShadowColor (GetSysColor(COLOR_3DDKSHADOW)) /**< Color de la sombra del reloj analógico */
+#define BackgroundColor (GetSysColor(COLOR_3DFACE)) /**< Color de fondo del reloj analógico */
 
 static const int SHADOW_DEPTH = 2;
  
+/**
+ * Struct encargado de almacenar la información necesaria para mostrar
+ * una manecilla del reloj analógico (horas, minutos, segundos ...)
+ */
 typedef struct
 {
-    POINT Start;
-    POINT End;
+    POINT Start; /**< Punto de inicio de la manecilla */
+    POINT End;   /**< Punto final de la manecilla */
 } HandData;
 
-static HandData HourHand, MinuteHand, SecondHand;
+static HandData HourHand, MinuteHand, SecondHand; /**< Posición manecillas del reloj */
 
 static void DrawTicks(HDC dc, const POINT* centre, int radius)
 {
